@@ -1,0 +1,48 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const crumbs = [
+	{
+		name: "home",
+		link: "/",
+		disabled: false,
+	},
+	{
+		name: "about",
+		link: "/",
+		disabled: false,
+	},
+];
+---
+
+<Layout title="home" crumbs={crumbs}>
+	<h1 class="title">Who am I</h1>
+
+	<h2 class="subtitle">about me</h2>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, vel.
+		Vitae, minima rem repudiandae nisi enim laboriosam, quibusdam nemo
+		itaque eligendi explicabo quod cupiditate atque. Lorem ipsum dolor sit
+		amet consectetur adipisicing elit. Quaerat totam, error in qui iusto
+		deleniti reiciendis perferendis cumque quod tempora dolorum illo quas
+		quidem provident? Quia provident saepe doloremque vero possimus ut?
+		Dolore aut veritatis iste eveniet cupiditate harum hic!
+	</p>
+	<p>
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt
+		autem corporis ad odio debitis, pariatur ut qui veniam deleniti tempore,
+		neque vero repellat a ratione recusandae voluptas. Magnam facilis
+		incidunt omnis asperiores praesentium voluptatem dolor. Sunt ea, eius
+		repudiandae, possimus assumenda iste vel voluptatibus ducimus
+		dignissimos temporibus aut natus suscipit. Pariatur iusto velit
+		necessitatibus.
+	</p>
+</Layout>
+
+<style>
+	p {
+		font-size: var(--fs-sm);
+		padding-block-end: 0.5rem;
+	}
+</style>

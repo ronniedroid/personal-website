@@ -1,0 +1,53 @@
+---
+const { items } = Astro.props;
+---
+
+<ul class="breadcrumb">
+  {
+    items.map((item: { disabled: boolean; link: string; name: string }) => (
+      <li>
+        <a
+          class:list={[{ disabled: item.disabled }]}
+          href={item.link ? item.link : ""}
+        >
+          {item.name}
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  ul.breadcrumb {
+    list-style: none;
+    max-width: max-content;
+  }
+
+  ul.breadcrumb li {
+    display: inline;
+    font-size: var(--fs-sm);
+  }
+
+  li:before {
+    color: var(--primary);
+    content: "/";
+  }
+
+  ul.breadcrumb li a {
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+
+  ul.breadcrumb li a:hover {
+    text-decoration: underline;
+  }
+
+  .disabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+  }
+</style>
