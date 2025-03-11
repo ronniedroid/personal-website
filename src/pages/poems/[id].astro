@@ -1,0 +1,59 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection, render } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+    const poems = await getCollection("poems");
+    return poems.map((poem) => ({
+        params: { id: poem.id },
+        props: { post: poem },
+    }));
+}
+// 2. For your template, you can get the entry directly from the prop
+const { post: poem } = Astro.props;
+const { Content } = await render(poem);
+
+const crumbs = [
+    {
+        name: "home",
+        link: "/",
+        disabled: false,
+    },
+    {
+        name: "poems",
+        link: "/poems",
+        disabled: false,
+    },
+    {
+        name: poem.data.name,
+        link: "/",
+        disabled: true,
+    },
+];
+---
+
+<Layout title=`poems / ${poem.data.name}` crumbs={crumbs}>
+    <h1 class="title" dir={poem.data.lang === "en" ? "ltr" : "rtl"}>
+        {poem.data.name}
+    </h1>
+    <div class="poem" dir={poem.data.lang === "en" ? "ltr" : "rtl"}>
+        <Content />
+    </div>
+    <div class="copyright" dir={poem.data.lang === "en" ? "ltr" : "rtl"}>
+        <p>(c) Ronnie Nissan</p>
+        <p>{poem.data.date}</p>
+    </div>
+</Layout>
+
+<style>
+    .poem {
+        white-space: pre-line;
+        font-size: var(--fs-sm);
+    }
+
+    .copyright {
+        padding-block-start: 2rem;
+        font-size: var(--fs-xs);
+        color: var(--secondary);
+    }
+</style>

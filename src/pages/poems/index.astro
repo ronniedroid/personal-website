@@ -1,0 +1,105 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const crumbs = [
+    {
+        name: "home",
+        link: "/",
+        disabled: false,
+    },
+    {
+        name: "poems",
+        link: "/poems",
+        disabled: true,
+    },
+];
+
+const english = await getCollection("poems", ({ data }) => {
+    return data.lang == "en";
+});
+
+const arabic = await getCollection("poems", ({ data }) => {
+    return data.lang == "ar";
+});
+---
+
+<Layout title="poems" crumbs={crumbs}>
+    <h1 class="title">My Poems</h1>
+
+    <p>
+        A Number of poems I wrote when I felt like writing, they are an
+        extension of how I felt at the time, and the ups and downs I went
+        through. I hope you enjoy reading them and please contact me if you want
+        to talk about any one of them.
+    </p>
+
+    <h2 class="subtitle">English</h2>
+    <ol class="poem-list">
+        {
+            english.reverse().map((poem) => (
+                <li data-date={poem.data.date}>
+                    <a href={`/poems/${poem.id}`}>{poem.data.name}</a>
+                </li>
+            ))
+        }
+    </ol>
+    <h2 class="subtitle">Arabic</h2>
+    <ol class="poem-list">
+        {
+            arabic.reverse().map((poem) => (
+                <li data-date={poem.data.date}>
+                    <a href={`/poems/${poem.id}`}>{poem.data.name}</a>
+                </li>
+            ))
+        }
+    </ol>
+</Layout>
+
+<style>
+    p {
+        font-size: var(--fs-sm);
+        padding-block-end: 2rem;
+    }
+
+    ol {
+        font-size: var(--fs-sm);
+        padding-block-end: 2rem;
+    }
+
+    .poem-list {
+        list-style: none;
+        counter-reset: poem-counter;
+        padding-left: 0;
+    }
+
+    .poem-list li {
+        counter-increment: poem-counter;
+        position: relative;
+        padding-left: 8em;
+    }
+
+    .poem-list li::before {
+        content: attr(data-date);
+        position: absolute;
+        width: 8em;
+        font-size: var(--fs-xs);
+        left: 0;
+        text-align: right;
+        line-height: 2.2;
+        color: var(--secondary);
+    }
+
+    .poem-list li::marker {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--on-surface);
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>

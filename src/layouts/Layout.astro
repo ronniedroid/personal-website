@@ -23,9 +23,9 @@ import "@fontsource-variable/inter";
 			<nav class="main-nav">
 				<h1><a href="/">Ronnie Nissan</a></h1>
 				<ul>
-					<li><a href="/">Projects</a></li>
+					<li><a href="/portfolio">Portfolio</a></li>
 					<li><a href="/">Blog</a></li>
-					<li><a href="/">My poems</a></li>
+					<li><a href="/poems">My poems</a></li>
 					<li><a href="/">Reading list</a></li>
 					<li><a href="/about">About</a></li>
 				</ul>
@@ -45,7 +45,7 @@ import "@fontsource-variable/inter";
 				</div>
 				<footer>
 					<p>
-						Copyright (c) 2015-2025 Ronnie Nissan. Website was
+						Copyright (c) 2014-2025 Ronnie Nissan. Website was
 						created in 2025. All original content is licensed under
 						a free/libre copyleft license (GPLv3 or later or CC
 						BY-SA).
@@ -123,13 +123,14 @@ import "@fontsource-variable/inter";
 		color: var(--primary);
 	}
 
-	a {
+	.main-nav a {
 		text-decoration: none;
 		color: var(--on-surface);
 		white-space: nowrap;
 	}
 
-	a:hover {
+	.main-nav a:hover,
+	.main-nav a:focus {
 		text-decoration: underline;
 	}
 
@@ -148,6 +149,7 @@ import "@fontsource-variable/inter";
 		padding-block-start: 2rem;
 		padding-block-end: 2rem;
 		background-color: var(--surface);
+		z-index: 9999;
 	}
 
 	@media (min-width: 1300px) {

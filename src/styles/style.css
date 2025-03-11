@@ -63,7 +63,7 @@ html {
   --surface-container-highest-dark: rgb(60 50 53);
   /* Typography */
 
-  --fs-xs: 0.75rem;
+  --fs-xs: 1rem;
   --fs-sm: 1.250rem;
   --fs-md: 1.5rem;
   --fs-fl-md: clamp(1.5rem, 2.5vw + 1rem, 2.5rem);

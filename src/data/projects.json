@@ -1,0 +1,81 @@
+{
+    "frontend": [
+        {
+            "id": "f1",
+            "name": "Harikar NGO Website",
+            "link": "https://harikar.org",
+            "github": "private",
+            "description": [
+                "Build using NuxtJs.",
+                "responsive and accessible design using Vuetify.",
+                "Contains user-friendly dashboards using HTML, CSS, and JavaScript (ApexCharts).",
+                "Developed a NodeJS and Express back-end to manage website content and project data.",
+                "Ensured website optimization and continued feature enhancements."
+            ]
+        },
+        {
+            "id": "f2",
+            "name": "Alternative Harikar NGO Website (A concept)",
+            "link": "https://harikar-alt-website.vercel.app",
+            "github": "https://github.com/ronniedroid/harikar-alt-website",
+            "description": [
+                "Build using AstroJs and utilizing Nano Stores.",
+                "Even more responsive and accessible design, designed from the ground up using HTML and CSS.",
+                "Contains dynamic, interactive, user-friendly dashboards using HTML, CSS, and JavaScript (ApexCharts).",
+                "Scores perfectly on performance and accessibility on Google’s lighthouse benchmark."
+            ]
+        },
+        {
+            "id": "f3",
+            "name": "Fossify.org website",
+            "link": "https://fossify.org",
+            "github": "https://github.com/FossifyOrg/fossifyorg.github.io",
+            "description": [
+                "Build using AstroJs and utilizing Nano Stores.",
+                "Responsive and accessible design, designed from the ground up using HTML and CSS.",
+                "Fully translatable to any language, currently translated to Arabic.",
+                "This website was made as a contribution to the Fossify project, which has a mission to make ad-free, privacy focused apps for android."
+            ]
+        }
+    ],
+    "cliApps": [
+        {
+            "id": "c1",
+            "name": "getnf",
+            "link": "https://github.com/getnf/getnf",
+            "github": "https://github.com/getnf/getnf",
+            "description": [
+                "A program to help with installing Nerd Fonts.",
+                "Written using BASH script.",
+                "Works as a CLI (Command-Line Interface) and also has a TUI (Terminal User Interface).",
+                "Cross platform, works on both Linux and MacOS."
+            ]
+        }
+    ],
+    "desktopApps": [
+        {
+            "id": "d1",
+            "name": "Embellish",
+            "link": "https://flathub.org/apps/io.github.getnf.embellish",
+            "github": "https://github.com/getnf/embellish",
+            "description": [
+                "A program to help with installing Nerd Fonts, the GUI version of getnf.",
+                "Written In GJS (Gnome Java Script).",
+                "Utilized GTK4 and Libadwaita to present an accessible and user friendly UI/UX.",
+                "Published on the Flatpak app store."
+            ]
+        },
+        {
+            "id": "d2",
+            "name": "Concessio",
+            "link": "https://flathub.org/apps/io.github.ronniedroid.concessio",
+            "github": "https://github.com/ronniedroid/concessio",
+            "description": [
+                "A Gnome app to help new users understand unix file permissions and switch between them.",
+                "Written In GJS (Gnome Java Script).",
+                "Utilized GTK4 and Libadwaita to present an accessible and user friendly UI/UX.",
+                "Published on the Flatpak app store."
+            ]
+        }
+    ]
+}

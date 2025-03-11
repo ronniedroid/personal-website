@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const crumbs = [
+    {
+        name: "home",
+        link: "/",
+        disabled: false,
+    },
+    {
+        name: "portfolio",
+        link: "/portfolio",
+        disabled: true,
+    },
+];
+
+const frontend = await getCollection("frontend");
+const desktopApps = await getCollection("desktopApps");
+const cliApps = await getCollection("cliApps");
+---
+
+<Layout title="home" crumbs={crumbs}>
+    <h1 class="title">My Portfolio</h1>
+    <h2 class="subtitle">frontend</h2>
+    <ul>
+        {
+            frontend.map((post: { id: any; data: { name: unknown } }) => (
+                <h3>{post.data.name}</h3>
+            ))
+        }
+    </ul>
+    <h2 class="subtitle">desktop apps</h2>
+    <ul>
+        {
+            desktopApps.map((post: { id: any; data: { name: unknown } }) => (
+                <h3>{post.data.name}</h3>
+            ))
+        }
+    </ul>
+    <h2 class="subtitle">CLI tools</h2>
+    <ul>
+        {
+            cliApps.map((post: { id: any; data: { name: unknown } }) => (
+                <h3>{post.data.name}</h3>
+            ))
+        }
+    </ul>
+</Layout>
+
+<style>
+    h1 > span {
+        text-transform: lowercase;
+        font-size: var(--fs-sm);
+    }
+    p {
+        font-size: var(--fs-sm);
+    }
+</style>
