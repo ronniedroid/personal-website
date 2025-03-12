@@ -39,21 +39,11 @@ const crumbs = [
     <div class="poem" dir={poem.data.lang === "en" ? "ltr" : "rtl"}>
         <Content />
     </div>
-    <div class="copyright" dir={poem.data.lang === "en" ? "ltr" : "rtl"}>
-        <p>(c) Ronnie Nissan</p>
-        <p>{poem.data.date}</p>
-    </div>
 </Layout>
 
 <style>
     .poem {
         white-space: pre-line;
         font-size: var(--fs-sm);
-    }
-
-    .copyright {
-        padding-block-start: 2rem;
-        font-size: var(--fs-xs);
-        color: var(--secondary);
     }
 </style>
