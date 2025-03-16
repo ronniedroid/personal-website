@@ -1,0 +1,231 @@
+---
+import BookCard from "../components/BookCard.astro";
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+
+const crumbs = [
+    {
+        name: "home",
+        link: "/",
+        disabled: false,
+    },
+    {
+        name: "reading-list",
+        link: "/reading-list",
+        disabled: true,
+    },
+];
+
+const sortBySeries = (a: any, b: any) => {
+    if (a.data.series && b.data.series) {
+        if (a.data.series < b.data.series) {
+            return -1;
+        }
+        if (a.data.series > b.data.series) {
+            return 1;
+        }
+        return 0; // Series names are equal
+    } else if (a.data.series) {
+        return -1; // a has series, b doesn't, a should come first
+    } else if (b.data.series) {
+        return 1; // b has series, a doesn't, b should come first
+    } else {
+        return 0; // Neither has series, keep original order
+    }
+};
+
+const reading = await getCollection("books", ({ data }) => {
+    return data.status == "Reading";
+});
+
+const finished = await getCollection("books", ({ data }) => {
+    return data.status == "Finished";
+});
+
+finished.sort((a, b) => {
+    return sortBySeries(a, b);
+});
+
+const unfinished = await getCollection("books", ({ data }) => {
+    return data.status == "Unfinished";
+});
+
+unfinished.sort((a, b) => {
+    return sortBySeries(a, b);
+});
+
+const awaited = await getCollection("books", ({ data }) => {
+    return data.status == "Awaited";
+});
+
+awaited.sort((a, b) => {
+    return sortBySeries(a, b);
+});
+
+const cancelled = await getCollection("books", ({ data }) => {
+    return data.status == "Cancelled";
+});
+
+cancelled.sort((a, b) => {
+    return sortBySeries(a, b);
+});
+---
+
+<Layout title="home" crumbs={crumbs}>
+    <h1 class="title" id="title">Reading List</h1>
+    <p>
+        Following are my reading lists, the lists are in no particular order,
+        but series are sorted first to make sure all enteries of a series would
+        be grouped together, I say reading, but I mostly do listening as
+        audiobooks are my favorite way to consume books. The lists are as
+        follows:
+    </p>
+    <ul class="toc">
+        <li><a href="#reading">Currently Reading</a></li>
+        <li><a href="#awaited">Awaited</a></li>
+        <li><a href="#finished">Finished</a></li>
+        <li><a href="#unfinished">Unfinished</a></li>
+        <li><a href="#cancelled">Cancelled</a></li>
+    </ul>
+    <h2 class="subtitle" id="reading">Currently reading</h2>
+    <p>
+        Books that I am currently reading, though I mostly focus on one book
+        more than the others, I still do read more than one book at a time.
+    </p>
+    <div class="books-grid">
+        {
+            reading.map((book) => (
+                <BookCard
+                    series={book.data.series ? book.data.series : null}
+                    order={book.data.order}
+                    title={book.data.title}
+                    author={book.data.author}
+                    tags={book.data.tags}
+                />
+            ))
+        }
+    </div>
+    <h2 class="subtitle" id="awaited">Awaited</h2>
+    <p>
+        My wishlist, books that are either in queue or I am interesting in
+        reading at a later time
+    </p>
+    <div class="books-grid">
+        {
+            awaited.map((book) => (
+                <BookCard
+                    series={book.data.series ? book.data.series : null}
+                    order={book.data.order}
+                    title={book.data.title}
+                    author={book.data.author}
+                    tags={book.data.tags}
+                />
+            ))
+        }
+    </div>
+    <h2 class="subtitle" id="finished">Finished</h2>
+    <p>
+        Books that I have finished reading, the following are the once I do
+        rememeber.
+    </p>
+    <div class="books-grid">
+        {
+            finished.map((book) => (
+                <BookCard
+                    series={book.data.series ? book.data.series : null}
+                    order={book.data.order}
+                    title={book.data.title}
+                    author={book.data.author}
+                    tags={book.data.tags}
+                />
+            ))
+        }
+    </div>
+    <h2 class="subtitle" id="unfinished">Unfinished</h2>
+    <p>
+        Books that I have not finished reading, and intend to go back and
+        re-read one day.
+    </p>
+    <div class="books-grid">
+        {
+            unfinished.map((book) => (
+                <BookCard
+                    series={book.data.series ? book.data.series : null}
+                    order={book.data.order}
+                    title={book.data.title}
+                    author={book.data.author}
+                    tags={book.data.tags}
+                />
+            ))
+        }
+    </div>
+    <h2 class="subtitle" id="cancelled">Cancelled</h2>
+    <p>
+        Books that I have finished reading, and I am not interested in finishing
+        at all.
+    </p>
+    <div class="books-grid">
+        {
+            cancelled.map((book) => (
+                <BookCard
+                    series={book.data.series ? book.data.series : null}
+                    order={book.data.order}
+                    title={book.data.title}
+                    author={book.data.author}
+                    tags={book.data.tags}
+                />
+            ))
+        }
+    </div>
+    <a href="#title" class="fab-wrapper">
+        <div class="fab">
+            <p>^</p>
+        </div>
+    </a>
+</Layout>
+
+<style>
+    p,
+    li {
+        font-size: var(--fs-sm);
+    }
+
+    .toc {
+        list-style: none;
+        padding-block: 1rem;
+    }
+
+    .toc a {
+        color: var(--tertiary);
+    }
+
+    .toc a:hover,
+    .toc a:focus {
+        color: var(--on-surface);
+    }
+
+    .books-grid {
+        display: grid;
+        gap: 1rem;
+        margin-block: 1rem;
+    }
+
+    .fab-wrapper {
+        text-decoration: none;
+        position: sticky;
+        bottom: 3em;
+        left: 100%;
+    }
+
+    .fab {
+        background-color: var(--tertiary-container);
+        color: var(--on-tertiary-container);
+        border-radius: 50%;
+        border: 1px solid var(--outline);
+        width: 3rem;
+        height: 3rem;
+        display: grid;
+        place-items: center;
+        place-content: center;
+    }
+</style>

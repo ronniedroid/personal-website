@@ -1,0 +1,1412 @@
+[
+  {
+    "status": "Awaited",
+    "title": "Our Lady of The Artilects",
+    "author": "Andrew Gillsmith",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Thriller",
+      "Mystery"
+    ],
+    "slug": "our-lady-of-the-artilects"
+  },
+  {
+    "status": "Awaited",
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Humor",
+      "Classics",
+      "Adventure",
+      "Comedy"
+    ],
+    "slug": "the-hitchhikers-guide-to-the-galaxy"
+  },
+  {
+    "status": "Unfinished",
+    "title": "1984",
+    "author": "George Orwell",
+    "tags": [
+      "Classics",
+      "Fiction",
+      "SciFi",
+      "Politics",
+      "Dystopia"
+    ],
+    "slug": "1984"
+  },
+  {
+    "status": "Unfinished",
+    "title": "Why I Am Not a Christian and Other Essays on Religion and Related Subjects",
+    "author": "Bertrand Russell",
+    "tags": [
+      "Philosophy",
+      "Religion",
+      "NonFiction",
+      "Essays",
+      "Atheism"
+    ],
+    "slug": "why-i-am-not-a-christian-and-other-essays-on-religion-and-related-subjects"
+  },
+  {
+    "status": "Awaited",
+    "title": "Moral Questions",
+    "author": "Thomas Nagel",
+    "tags": [
+      "NonFiction",
+      "Philosophy"
+    ],
+    "slug": "moral-questions"
+  },
+  {
+    "status": "Awaited",
+    "title": "History of Western Philosophy",
+    "author": "Bertrand Russell",
+    "tags": [
+      "NonFiction",
+      "Philosophy",
+      "History"
+    ],
+    "slug": "history-of-western-philosophy"
+  },
+  {
+    "status": "Awaited",
+    "title": "Your Inner Fish: a Journey into the 3.5-Billion-Year History of the Human Body",
+    "author": "Neil Shubin",
+    "tags": [
+      "NonFiction",
+      "Evolution",
+      "History",
+      "science"
+    ],
+    "slug": "your-inner-fish-a-journey-into-the-35-billion-year-history-of-the-human-body"
+  },
+  {
+    "status": "Awaited",
+    "title": "A Universe from Nothing: Why There Is Something Rather Than Nothing",
+    "author": "Lawrence M. Krauss",
+    "tags": [
+      "NonFiction",
+      "science",
+      "Physics",
+      "Atheism",
+      "Religion"
+    ],
+    "slug": "a-universe-from-nothing-why-there-is-something-rather-than-nothing"
+  },
+  {
+    "status": "Unfinished",
+    "title": "The Tobacco Keeper",
+    "author": "Ali Bader",
+    "tags": [
+      "Fiction",
+      "Mystery"
+    ],
+    "slug": "the-tobacco-keeper"
+  },
+  {
+    "status": "Unfinished",
+    "title": "Living to Tell the Tale",
+    "author": "Gabriel García Márquez",
+    "tags": [
+      "Biography",
+      "Autobiography",
+      "Memoir",
+      "NonFiction"
+    ],
+    "slug": "living-to-tell-the-tale"
+  },
+  {
+    "status": "Unfinished",
+    "title": "The Origin of Species",
+    "author": "Charles Darwin",
+    "tags": [
+      "NonFiction",
+      "science",
+      "Evolution",
+      "Classics",
+      "Philosophy",
+      "History"
+    ],
+    "slug": "the-origin-of-species"
+  },
+  {
+    "status": "Awaited",
+    "title": "سلسلة مدن الملح",
+    "author": "Abdul Rahman Munif",
+    "tags": [
+      "Fiction",
+      "Novels",
+      "Classics",
+      "History",
+      "Politics"
+    ],
+    "slug": "سلسلة-مدن-الملح"
+  },
+  {
+    "status": "Awaited",
+    "title": "سباق المسافات الطويلة",
+    "author": "Abdul Rahman Munif",
+    "tags": [
+      "Fiction",
+      "Novels",
+      "Classics",
+      "History",
+      "Politics"
+    ],
+    "slug": "سباق-المسافات-الطويلة"
+  },
+  {
+    "status": "Finished",
+    "title": "Mythos: The Greek Myths Retold",
+    "series": "Stephen Fry's Great Mythology",
+    "order": 1,
+    "author": "Stephen Fry",
+    "tags": [
+      "NonFiction",
+      "History",
+      "Mythology"
+    ],
+    "slug": "mythos-the-greek-myths-retold"
+  },
+  {
+    "status": "Finished",
+    "title": "Hyperion",
+    "series": "Hyperion Cantos",
+    "order": 1,
+    "author": "Dan Simmons",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Thriller",
+      "Mystery",
+      "SpaceOpera"
+    ],
+    "slug": "hyperion"
+  },
+  {
+    "status": "Finished",
+    "title": "The Fall of Hyperion",
+    "series": "Hyperion Cantos",
+    "order": 2,
+    "author": "Dan Simmons",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Thriller",
+      "Mystery",
+      "SpaceOpera"
+    ],
+    "slug": "the-fall-of-hyperion"
+  },
+  {
+    "status": "Finished",
+    "title": "The Three-Body Problem",
+    "series": "Remembrance of Earth's Past",
+    "order": 1,
+    "author": "Liu Cixin",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Aliens"
+    ],
+    "slug": "the-three-body-problem"
+  },
+  {
+    "status": "Finished",
+    "title": "The Dark Forest",
+    "series": "Remembrance of Earth's Past",
+    "order": 2,
+    "author": "Liu Cixin",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Aliens"
+    ],
+    "slug": "the-dark-forest"
+  },
+  {
+    "status": "Finished",
+    "title": "Death's End",
+    "series": "Remembrance of Earth's Past",
+    "order": 3,
+    "author": "Liu Cixin",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Aliens"
+    ],
+    "slug": "deaths-end"
+  },
+  {
+    "status": "Finished",
+    "title": "Children of Time",
+    "series": "Children of Time",
+    "order": 1,
+    "author": "Adrian Tchaikovsky",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "SpaceOpera",
+      "PostApocalyptic"
+    ],
+    "slug": "children-of-time"
+  },
+  {
+    "status": "Finished",
+    "title": "Children of Ruin",
+    "series": "Children of Time",
+    "order": 2,
+    "author": "Adrian Tchaikovsky",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "SpaceOpera",
+      "PostApocalyptic"
+    ],
+    "slug": "children-of-ruin"
+  },
+  {
+    "status": "Finished",
+    "title": "Children of Memory",
+    "series": "Children of Time",
+    "order": 3,
+    "author": "Adrian Tchaikovsky",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "SpaceOpera",
+      "PostApocalyptic"
+    ],
+    "slug": "children-of-memory"
+  },
+  {
+    "status": "Finished",
+    "title": "Devergent",
+    "series": "Divergent",
+    "order": 1,
+    "author": "Veronica Roth",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "devergent"
+  },
+  {
+    "status": "Finished",
+    "title": "Insurgent",
+    "series": "Divergent",
+    "order": 1,
+    "author": "Veronica Roth",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "insurgent"
+  },
+  {
+    "status": "Finished",
+    "title": "Allegiant",
+    "series": "Divergent",
+    "order": 1,
+    "author": "Veronica Roth",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "allegiant"
+  },
+  {
+    "status": "Finished",
+    "title": "The maze Runner",
+    "series": "The Maze Runner",
+    "order": 1,
+    "author": "James Dashner",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "the-maze-runner"
+  },
+  {
+    "status": "Finished",
+    "title": "The Scorch Trials",
+    "series": "The Maze Runner",
+    "order": 2,
+    "author": "James Dashner",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "the-scorch-trials"
+  },
+  {
+    "status": "Finished",
+    "title": "The Death Cure",
+    "series": "The Maze Runner",
+    "order": 3,
+    "author": "James Dashner",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Dystopia",
+      "Thriller",
+      "PostApocalyptic"
+    ],
+    "slug": "the-death-cure"
+  },
+  {
+    "status": "Finished",
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "tags": [
+      "Fiction",
+      "Horror",
+      "Fantasy"
+    ],
+    "slug": "the-picture-of-dorian-gray"
+  },
+  {
+    "status": "Finished",
+    "title": "The Book Thief",
+    "author": "Mark Zusak",
+    "tags": [
+      "Fiction",
+      "History",
+      "War"
+    ],
+    "slug": "the-book-thief"
+  },
+  {
+    "status": "Finished",
+    "title": "The Boy in the Striped Pajamas",
+    "author": "John Boyne",
+    "tags": [
+      "Fiction",
+      "War",
+      "History"
+    ],
+    "slug": "the-boy-in-the-striped-pajamas"
+  },
+  {
+    "status": "Finished",
+    "title": "The Fault in Our Starts",
+    "author": "John Green",
+    "tags": [
+      "Fiction",
+      "Romance"
+    ],
+    "slug": "the-fault-in-our-starts"
+  },
+  {
+    "status": "Finished",
+    "title": "The Paper Towns",
+    "author": "John Green",
+    "tags": [
+      "Fiction",
+      "Romance",
+      "Mystery",
+      "Adventure"
+    ],
+    "slug": "the-paper-towns"
+  },
+  {
+    "status": "Finished",
+    "title": "Looking for Alaska",
+    "author": "John Green",
+    "tags": [
+      "Fiction",
+      "Romance"
+    ],
+    "slug": "looking-for-alaska"
+  },
+  {
+    "status": "Finished",
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "tags": [
+      "Classics",
+      "Fiction",
+      "Adventure"
+    ],
+    "slug": "the-old-man-and-the-sea"
+  },
+  {
+    "status": "Finished",
+    "title": "احببتك اكثر مما ينبغي",
+    "author": "Athier Abdullah Al-Nishmi",
+    "tags": [
+      "Romance",
+      "Fiction"
+    ],
+    "slug": "احببتك-اكثر-مما-ينبغي"
+  },
+  {
+    "status": "Finished",
+    "title": "الاسود يليق بك",
+    "author": "Ahlam Musteghanemi",
+    "tags": [
+      "Romance",
+      "Fiction",
+      "Drama"
+    ],
+    "slug": "الاسود-يليق-بك"
+  },
+  {
+    "status": "Finished",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "tags": [
+      "Fiction",
+      "History",
+      "Drama",
+      "War"
+    ],
+    "slug": "the-kite-runner"
+  },
+  {
+    "status": "Finished",
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini",
+    "tags": [
+      "Fiction",
+      "History",
+      "Drama",
+      "War"
+    ],
+    "slug": "a-thousand-splendid-suns"
+  },
+  {
+    "status": "Finished",
+    "title": "And the Mountains Echoed",
+    "author": "Khaled Hosseini",
+    "tags": [
+      "Fiction",
+      "History",
+      "Drama",
+      "War"
+    ],
+    "slug": "and-the-mountains-echoed"
+  },
+  {
+    "status": "Finished",
+    "title": "God Is Not Great: How Religion Poisons Everything",
+    "author": "Christopher Hitchens",
+    "tags": [
+      "NonFiction",
+      "Religion",
+      "Philosophy",
+      "Atheism",
+      "Politics",
+      "History"
+    ],
+    "slug": "god-is-not-great-how-religion-poisons-everything"
+  },
+  {
+    "status": "Finished",
+    "title": "The Missionary Position: Mother Teresa in Theory and Practice",
+    "author": "Christopher Hitchens",
+    "tags": [
+      "NonFiction",
+      "Religion",
+      "Atheism",
+      "History",
+      "Essays",
+      "Philosophy"
+    ],
+    "slug": "the-missionary-position-mother-teresa-in-theory-and-practice"
+  },
+  {
+    "status": "Finished",
+    "title": "Free Well",
+    "author": "Sam Harris",
+    "tags": [
+      "Philosophy",
+      "NonFiction",
+      "Psychology",
+      "Religion",
+      "Atheism",
+      "Essays"
+    ],
+    "slug": "free-well"
+  },
+  {
+    "status": "Finished",
+    "title": "The End of Faith: Religion, Terror, and the Future of Reason",
+    "author": "Sam Harris",
+    "tags": [
+      "NonFiction",
+      "Philosophy",
+      "Religion",
+      "Atheism",
+      "Politics",
+      "History"
+    ],
+    "slug": "the-end-of-faith-religion-terror-and-the-future-of-reason"
+  },
+  {
+    "status": "Finished",
+    "title": "The God Delusion",
+    "author": "Richard Dawkins",
+    "tags": [
+      "NonFiction",
+      "Religion",
+      "Atheism",
+      "Philosophy"
+    ],
+    "slug": "the-god-delusion"
+  },
+  {
+    "status": "Finished",
+    "title": "The Greatest Show on Earth: The Evidence for Evolution",
+    "author": "Richard Dawkins",
+    "tags": [
+      "science",
+      "NonFiction",
+      "Evolution",
+      "Religion",
+      "Atheism"
+    ],
+    "slug": "the-greatest-show-on-earth-the-evidence-for-evolution"
+  },
+  {
+    "status": "Finished",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "tags": [
+      "science",
+      "NonFiction",
+      "Evolution",
+      "Genetics"
+    ],
+    "slug": "the-selfish-gene"
+  },
+  {
+    "status": "Finished",
+    "title": "More Fool Me",
+    "author": "Stephen Fry",
+    "tags": [
+      "NonFiction",
+      "Biography",
+      "Humor",
+      "Autobiography",
+      "Memoir"
+    ],
+    "slug": "more-fool-me"
+  },
+  {
+    "status": "Finished",
+    "title": "Dark Matter",
+    "author": "Blake Crouch",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Mystery",
+      "Thriller"
+    ],
+    "slug": "dark-matter"
+  },
+  {
+    "status": "Finished",
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Mystery",
+      "Thriller"
+    ],
+    "slug": "recursion"
+  },
+  {
+    "status": "Finished",
+    "title": "The Infidel",
+    "author": "Ali Bader",
+    "tags": [
+      "Fiction",
+      "War",
+      "Drama"
+    ],
+    "slug": "the-infidel"
+  },
+  {
+    "status": "Finished",
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "tags": [
+      "Fiction",
+      "Mystery",
+      "Classics",
+      "Thriller",
+      "Crime"
+    ],
+    "slug": "and-then-there-were-none"
+  },
+  {
+    "status": "Finished",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "tags": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "slug": "gone-girl"
+  },
+  {
+    "status": "Finished",
+    "title": "The Institute",
+    "author": "Stephen King",
+    "tags": [
+      "Fiction",
+      "Mystery",
+      "SciFi",
+      "Thriller",
+      "Fantasy",
+      "Horror"
+    ],
+    "slug": "the-institute"
+  },
+  {
+    "status": "Finished",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "tags": [
+      "Fiction",
+      "Fantasy",
+      "Adventure",
+      "Philosophy"
+    ],
+    "slug": "the-alchemist"
+  },
+  {
+    "status": "Finished",
+    "title": "Adultery",
+    "author": "Paulo Coelho",
+    "tags": [
+      "Romance",
+      "Fiction",
+      "Philosophy"
+    ],
+    "slug": "adultery"
+  },
+  {
+    "status": "Finished",
+    "title": "Leviathan Wakes",
+    "series": "The Expanse",
+    "order": 1,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "leviathan-wakes"
+  },
+  {
+    "status": "Finished",
+    "title": "The Butcher of Anderson Station",
+    "series": "The Expanse",
+    "order": 1.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "the-butcher-of-anderson-station"
+  },
+  {
+    "status": "Finished",
+    "title": "Caliban's War",
+    "series": "The Expanse",
+    "order": 2,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "calibans-war"
+  },
+  {
+    "status": "Finished",
+    "title": "Gods of Risk",
+    "series": "The Expanse",
+    "order": 2.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "gods-of-risk"
+  },
+  {
+    "status": "Finished",
+    "title": "Drive",
+    "series": "The Expanse",
+    "order": 2.7,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "drive"
+  },
+  {
+    "status": "Finished",
+    "title": "Abadon's Gate",
+    "series": "The Expanse",
+    "order": 3,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "abadons-gate"
+  },
+  {
+    "status": "Finished",
+    "title": "The Churn",
+    "series": "The Expanse",
+    "order": 3.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "the-churn"
+  },
+  {
+    "status": "Finished",
+    "title": " Cibola Burn",
+    "series": "The Expanse",
+    "order": 4,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "cibola-burn"
+  },
+  {
+    "status": "Finished",
+    "title": "Nemesis Games",
+    "series": "The Expanse",
+    "order": 5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "nemesis-games"
+  },
+  {
+    "status": "Finished",
+    "title": "The Viral Abyss",
+    "series": "The Expanse",
+    "order": 5.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "the-viral-abyss"
+  },
+  {
+    "status": "Finished",
+    "title": "Babylon's Ashes",
+    "series": "The Expanse",
+    "order": 6,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "babylons-ashes"
+  },
+  {
+    "status": "Finished",
+    "title": "Strange Dogs",
+    "series": "The Expanse",
+    "order": 6.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "strange-dogs"
+  },
+  {
+    "status": "Finished",
+    "title": "Persepolis Rising",
+    "series": "The Expanse",
+    "order": 7,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "persepolis-rising"
+  },
+  {
+    "status": "Finished",
+    "title": "Tiamat's Wrath",
+    "series": "The Expanse",
+    "order": 8,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "tiamats-wrath"
+  },
+  {
+    "status": "Finished",
+    "title": "The Last Fight of the Cassandra",
+    "series": "The Expanse",
+    "order": 8.1,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "the-last-fight-of-the-cassandra"
+  },
+  {
+    "status": "Finished",
+    "title": "Auberon",
+    "series": "The Expanse",
+    "order": 8.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "auberon"
+  },
+  {
+    "status": "Finished",
+    "title": "Leviathan Falls",
+    "series": "The Expanse",
+    "order": 9,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "leviathan-falls"
+  },
+  {
+    "status": "Finished",
+    "title": "The Sins of Out Fathers",
+    "series": "The Expanse",
+    "order": 9.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SpaceOpera",
+      "SciFi",
+      "Aliens",
+      "Horror",
+      "Mystery",
+      "Novels"
+    ],
+    "slug": "the-sins-of-out-fathers"
+  },
+  {
+    "status": "Finished",
+    "title": "The Hobbits",
+    "series": "Lord of the Rings",
+    "order": 0,
+    "author": "J.R.R Tolkien",
+    "tags": [
+      "Fantasy",
+      "Classics",
+      "Fiction",
+      "Epic",
+      "Novels"
+    ],
+    "slug": "the-hobbits"
+  },
+  {
+    "status": "Finished",
+    "title": "The Fellowship of the Ring",
+    "series": "Lord of the Rings",
+    "order": 1,
+    "author": "J.R.R Tolkien",
+    "tags": [
+      "Fantasy",
+      "Classics",
+      "Fiction",
+      "Epic",
+      "Novels"
+    ],
+    "slug": "the-fellowship-of-the-ring"
+  },
+  {
+    "status": "Finished",
+    "title": "The Two Towers",
+    "series": "Lord of the Rings",
+    "order": 2,
+    "author": "J.R.R Tolkien",
+    "tags": [
+      "Fantasy",
+      "Classics",
+      "Fiction",
+      "Epic",
+      "Novels"
+    ],
+    "slug": "the-two-towers"
+  },
+  {
+    "status": "Finished",
+    "title": "The Return of the King",
+    "series": "Lord of the Rings",
+    "order": 3,
+    "author": "J.R.R Tolkien",
+    "tags": [
+      "Fantasy",
+      "Classics",
+      "Fiction",
+      "Epic",
+      "Novels"
+    ],
+    "slug": "the-return-of-the-king"
+  },
+  {
+    "status": "Finished",
+    "title": "Why Evolution is True",
+    "author": "Jerry A. Coyne",
+    "tags": [
+      "NonFiction",
+      "science",
+      "Evolution",
+      "Religion",
+      "Atheism"
+    ],
+    "slug": "why-evolution-is-true"
+  },
+  {
+    "status": "Finished",
+    "title": "The Call of Cthulhu",
+    "author": "H.P Lovecraft",
+    "tags": [
+      "Horror",
+      "Classics",
+      "Fiction",
+      "SciFi",
+      "Lovecraftian"
+    ],
+    "slug": "the-call-of-cthulhu"
+  },
+  {
+    "status": "Finished",
+    "title": "Blindsight",
+    "author": "Peter Watts",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Horror",
+      "Aliens"
+    ],
+    "slug": "blindsight"
+  },
+  {
+    "status": "Finished",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "tags": [
+      "Fiction",
+      "Romance",
+      "Classics",
+      "Drama",
+      "History"
+    ],
+    "slug": "pride-and-prejudice"
+  },
+  {
+    "status": "Finished",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Humor",
+      "Thriller",
+      "Adventure"
+    ],
+    "slug": "the-martian"
+  },
+  {
+    "status": "Finished",
+    "title": "2001: A Space Odyssey ",
+    "author": "Arthur C. Clarke",
+    "tags": [
+      "Fiction",
+      "SciFi",
+      "Mystery"
+    ],
+    "slug": "2001-a-space-odyssey"
+  },
+  {
+    "status": "Cancelled",
+    "title": "Inferno",
+    "author": "Dan Brown",
+    "tags": [
+      "Fiction",
+      "Thriller",
+      "Mystery",
+      "Adventure",
+      "Crime"
+    ],
+    "slug": "robert-langdon-4-inferno"
+  },
+  {
+    "status": "Cancelled",
+    "title": "A Man Called Ove",
+    "author": "Fredrik Backman",
+    "tags": [
+      "Fiction",
+      "Humor",
+      "Drama"
+    ],
+    "slug": "a-man-called-ove"
+  },
+  {
+    "status": "Cancelled",
+    "title": "كبرتُ ونسيت أن أنسى",
+    "author": "Bothaina Al-Isa",
+    "tags": [
+      "Fiction",
+      "Romance",
+      "Poetry",
+      "Feminism"
+    ],
+    "slug": "كبرت-ونسيت-أن-أنسى"
+  },
+  {
+    "status": "Finished",
+    "title": "Children of Memory",
+    "series": "Children of Time",
+    "order": 3,
+    "author": "Adrian Tchaikovsky",
+    "tags": [
+      "Science Fiction",
+      "Space Opera",
+      "Aliens"
+    ],
+    "slug": "children-of-memory"
+  },
+  {
+    "status": "Finished",
+    "title": "Why We Sleep",
+    "author": "Matthew Walker",
+    "tags": [
+      "Nonfiction",
+      "Science",
+      "Health"
+    ],
+    "slug": "why-we-sleep"
+  },
+  {
+    "status": "Finished",
+    "title": "Why Evolution is True",
+    "author": "Jerry A. Coyne",
+    "tags": [
+      "Nonfiction",
+      "Science",
+      "Evolution"
+    ],
+    "slug": "why-evolution-is-true"
+  },
+  {
+    "status": "Finished",
+    "title": "Priest of Bones",
+    "series": "The War for the Rose Throne",
+    "order": 1,
+    "author": "Peter McLean",
+    "tags": [
+      "Fantasy",
+      "Grimdark",
+      "Crime"
+    ],
+    "slug": "priest-of-bones"
+  },
+  {
+    "status": "Finished",
+    "title": "Priest of Lies",
+    "series": "The War for the Rose Throne",
+    "order": 2,
+    "author": "Peter McLean",
+    "tags": [
+      "Fantasy",
+      "Grimdark",
+      "Crime"
+    ],
+    "slug": "priest-of-lies"
+  },
+  {
+    "status": "Finished",
+    "title": "Priest of Gallows",
+    "series": "The War for the Rose Throne",
+    "order": 3,
+    "author": "Peter McLean",
+    "tags": [
+      "Fantasy",
+      "Grimdark",
+      "Crime"
+    ],
+    "slug": "priest-of-gallows"
+  },
+  {
+    "status": "Finished",
+    "title": "Priest of Crowns",
+    "series": "The War for the Rose Throne",
+    "order": 4,
+    "author": "Peter McLean",
+    "tags": [
+      "Fantasy",
+      "Grimdark",
+      "Crime"
+    ],
+    "slug": "priest-of-crowns"
+  },
+  {
+    "status": "Finished",
+    "title": "Annihilation",
+    "series": "Southern Reach",
+    "order": 1,
+    "author": "Jeff VanderMeer",
+    "tags": [
+      "Science Fiction",
+      "Horror",
+      "Weird Fiction"
+    ],
+    "slug": "annihilation"
+  },
+  {
+    "status": "Finished",
+    "title": "Authority",
+    "series": "Southern Reach",
+    "order": 2,
+    "author": "Jeff VanderMeer",
+    "tags": [
+      "Science Fiction",
+      "Horror",
+      "Weird Fiction"
+    ],
+    "slug": "authority"
+  },
+  {
+    "status": "Finished",
+    "title": "Acceptance",
+    "series": "Southern Reach",
+    "order": 3,
+    "author": "Jeff VanderMeer",
+    "tags": [
+      "Science Fiction",
+      "Horror",
+      "Weird Fiction"
+    ],
+    "slug": "acceptance"
+  },
+  {
+    "status": "Awaited",
+    "title": "Absolution",
+    "series": "Southern Reach",
+    "order": 4,
+    "author": "Jeff VanderMeer",
+    "tags": [
+      "Science Fiction",
+      "Horror",
+      "Weird Fiction"
+    ],
+    "slug": "absolution"
+  },
+  {
+    "status": "Finished",
+    "title": "Childhood's End",
+    "author": "Arthur C. Clarke",
+    "tags": [
+      "Science Fiction",
+      "Aliens",
+      "Dystopian"
+    ],
+    "slug": "childhoods-end"
+  },
+  {
+    "status": "Finished",
+    "title": "Heroes: The Greek Myths Reimagined",
+    "series": "Stephen Fry's Great Mythology",
+    "order": 2,
+    "author": "Stephen Fry",
+    "tags": [
+      "Mythology",
+      "NonFiction",
+      "History"
+    ],
+    "slug": "heroes-the-greek-myths-reimagined"
+  },
+  {
+    "status": "Reading",
+    "title": "Think : a compelling introduction to philosophy",
+    "author": "Simon Blackburn",
+    "tags": [
+      "Philosophy",
+      "NonFiction",
+      "Introduction"
+    ],
+    "slug": "think-a-compelling-introduction-to-philosophy"
+  },
+  {
+    "status": "Finished",
+    "title": "The Mercy of Gods",
+    "series": "The Captive's War",
+    "order": 1.0,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Adventure"
+    ],
+    "slug": "the-mercy-of-gods"
+  },
+  {
+    "status": "Finished",
+    "title": "Livesuit",
+    "series": "The Captive's War",
+    "order": 1.5,
+    "author": "James S.A. Corey",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Adventure"
+    ],
+    "slug": "livesuit"
+  },
+  {
+    "status": "Awaited",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "tags": [
+      "Classics",
+      "Fiction",
+      "Romance",
+      "Drama"
+    ],
+    "slug": "jane-eyre"
+  },
+  {
+    "status": "Awaited",
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Cyberpunk"
+    ],
+    "slug": "snow-crash"
+  },
+  {
+    "status": "Reading",
+    "title": "Alien Clay",
+    "author": "Adrian Tchaikovsky",
+    "tags": [
+      "SciFi",
+      "Fiction",
+      "Mystery",
+      "Aliens"
+    ],
+    "slug": "alien-clay"
+  }
+]

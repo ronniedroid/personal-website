@@ -21,4 +21,17 @@ const poems = defineCollection({
     })
 })
 
-export const collections = { desktopApps, cliApps, frontend, poems };
+const books = defineCollection({
+    loader: file("src/data/books.json"),
+    schema: z.object({
+        status: z.enum(["Reading", "Finished", "Unfinished", "Awaited", "Cancelled"]),
+        title: z.string(),
+        series: z.string().optional(),
+        order: z.number().optional(),
+        author: z.string(),
+        tags: z.array(z.string()),
+        slug: z.string()
+    })
+})
+
+export const collections = { desktopApps, cliApps, frontend, poems, books };
