@@ -1,0 +1,101 @@
+---
+const { list } = Astro.props;
+---
+
+<div class="media-scroller snaps-inline">
+  {
+    list.map((book: any) => (
+      <div class="book-card">
+        {book.data.series ? (
+          <p class="series-banner">
+            #{book.data.order} of {book.data.series}
+          </p>
+        ) : (
+          <p class="series-banner">Standalone</p>
+        )}
+        <h3>{book.data.title}</h3>
+        <p class="author">By {book.data.author}</p>
+        <ul class="tags">
+          {book.data.tags.map((tag: string) => (
+            <li class="tag">{tag}</li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  .media-scroller {
+    --_spacer: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--_spacer);
+    justify-content: start;
+    padding-inline: var(--_spacer);
+    padding-block: var(--_spacer);
+    overflow-x: auto;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+  }
+
+  .snaps-inline {
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--_spacer);
+  }
+  .snaps-inline > * {
+    scroll-snap-align: start;
+  }
+
+  .book-card {
+    background-color: var(--surface-container-low);
+    color: var(--on-surface);
+    border: 1px solid var(--outline-variant);
+    border-radius: 1rem;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+
+    display: grid;
+
+    width: 38ch;
+    height: 13rem;
+  }
+
+  .book-card > h3 {
+    font-size: var(--fs-fl-sm);
+    font-weight: 500;
+    color: var(--primary);
+    align-self: start;
+  }
+
+  .author {
+    font-weight: 500;
+    align-self: start;
+  }
+
+  .series-banner {
+    font-size: var(--fs-xs);
+    align-self: start;
+  }
+
+  .tags {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    margin-block-start: 2rem;
+    align-self: end;
+  }
+
+  .tag {
+    background-color: var(--tertiary-container);
+    color: var(--on-tertiary-container);
+    padding-inline: 1rem;
+    padding-block: 0.1rem;
+    font-size: var(--fs-xxs);
+    font-weight: 500;
+    border: 1px solid var(--outline-variant);
+    border-radius: 3rem;
+  }
+</style>
