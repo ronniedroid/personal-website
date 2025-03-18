@@ -17,7 +17,7 @@ const { series, order, title, author, tags } = Astro.props;
                 #{order} of {series}
             </p>
         ) : (
-            ""
+            <p class="series-banner">Standalone</p>
         )
     }
     <h3>{title}</h3>
@@ -36,17 +36,27 @@ const { series, order, title, author, tags } = Astro.props;
         padding-inline: 1rem;
         padding-block: 1rem;
 
-        max-width: 50ch;
+        display: grid;
+
+        width: 38ch;
+        height: 13rem;
     }
 
     .book-card > h3 {
         font-size: var(--fs-fl-sm);
         font-weight: 500;
         color: var(--primary);
+        align-self: start;
+    }
+
+    .author {
+        font-weight: 500;
+        align-self: start;
     }
 
     .series-banner {
         font-size: var(--fs-xs);
+        align-self: start;
     }
 
     .tags {
@@ -55,7 +65,8 @@ const { series, order, title, author, tags } = Astro.props;
         flex-wrap: wrap;
         column-gap: 0.5rem;
         row-gap: 0.5rem;
-        margin-block-start: 1rem;
+        margin-block-start: 2rem;
+        align-self: end;
     }
 
     .tag {

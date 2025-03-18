@@ -52,9 +52,6 @@ import "@fontsource-variable/inter";
 					</p>
 				</footer>
 			</div>
-			<div class="section-nav">
-				<slot name="page-nav" />
-			</div>
 		</main>
 	</body>
 </html>
@@ -62,14 +59,14 @@ import "@fontsource-variable/inter";
 <style>
 	main {
 		display: grid;
-		grid-template-rows: 25% 1fr;
-		align-items: start;
+		grid-template-rows: auto 1fr;
 	}
 
 	@media (min-width: 1300px) {
 		main {
 			grid-template-columns: 350px 1fr;
 			grid-template-rows: auto;
+			align-items: start;
 		}
 	}
 
@@ -140,6 +137,7 @@ import "@fontsource-variable/inter";
 		display: grid;
 		grid-template-rows: 100px auto auto;
 		padding-block-end: 2rem;
+		max-width: 100%;
 	}
 
 	header {
@@ -149,6 +147,7 @@ import "@fontsource-variable/inter";
 		padding-block-end: 2rem;
 		background-color: var(--surface);
 		z-index: 9999;
+		max-width: 100%;
 	}
 
 	@media (min-width: 1300px) {
@@ -159,13 +158,13 @@ import "@fontsource-variable/inter";
 	}
 
 	.content {
-		max-width: 75ch;
+		max-width: calc(100vw - 4rem);
 		padding-block-end: 2rem;
-		position: relative;
 	}
 
 	@media (min-width: 1300px) {
 		.content {
+			max-width: 75ch;
 			padding-block-start: 2rem;
 		}
 	}

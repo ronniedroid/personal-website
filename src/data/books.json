@@ -5,7 +5,6 @@
     "author": "Andrew Gillsmith",
     "tags": [
       "SciFi",
-      "Fiction",
       "Thriller",
       "Mystery"
     ],
@@ -16,12 +15,9 @@
     "title": "The Hitchhiker's Guide to the Galaxy",
     "author": "Douglas Adams",
     "tags": [
-      "Fiction",
       "SciFi",
       "Humor",
-      "Classics",
-      "Adventure",
-      "Comedy"
+      "Adventure"
     ],
     "slug": "the-hitchhikers-guide-to-the-galaxy"
   },
@@ -31,32 +27,27 @@
     "author": "George Orwell",
     "tags": [
       "Classics",
-      "Fiction",
       "SciFi",
-      "Politics",
       "Dystopia"
     ],
     "slug": "1984"
   },
   {
     "status": "Unfinished",
-    "title": "Why I Am Not a Christian and Other Essays on Religion and Related Subjects",
+    "title": "Why I Am Not a Christian",
     "author": "Bertrand Russell",
     "tags": [
       "Philosophy",
       "Religion",
-      "NonFiction",
-      "Essays",
       "Atheism"
     ],
-    "slug": "why-i-am-not-a-christian-and-other-essays-on-religion-and-related-subjects"
+    "slug": "why-i-am-not-a-christian"
   },
   {
     "status": "Awaited",
     "title": "Moral Questions",
     "author": "Thomas Nagel",
     "tags": [
-      "NonFiction",
       "Philosophy"
     ],
     "slug": "moral-questions"
@@ -66,7 +57,6 @@
     "title": "History of Western Philosophy",
     "author": "Bertrand Russell",
     "tags": [
-      "NonFiction",
       "Philosophy",
       "History"
     ],
@@ -74,35 +64,31 @@
   },
   {
     "status": "Awaited",
-    "title": "Your Inner Fish: a Journey into the 3.5-Billion-Year History of the Human Body",
+    "title": "Your Inner Fishy",
     "author": "Neil Shubin",
     "tags": [
-      "NonFiction",
       "Evolution",
       "History",
       "science"
     ],
-    "slug": "your-inner-fish-a-journey-into-the-35-billion-year-history-of-the-human-body"
+    "slug": "your-inner-fish"
   },
   {
     "status": "Awaited",
-    "title": "A Universe from Nothing: Why There Is Something Rather Than Nothing",
+    "title": "A Universe from Nothing",
     "author": "Lawrence M. Krauss",
     "tags": [
-      "NonFiction",
       "science",
       "Physics",
-      "Atheism",
       "Religion"
     ],
-    "slug": "a-universe-from-nothing-why-there-is-something-rather-than-nothing"
+    "slug": "a-universe-from-nothing"
   },
   {
     "status": "Unfinished",
     "title": "The Tobacco Keeper",
     "author": "Ali Bader",
     "tags": [
-      "Fiction",
       "Mystery"
     ],
     "slug": "the-tobacco-keeper"
@@ -114,8 +100,7 @@
     "tags": [
       "Biography",
       "Autobiography",
-      "Memoir",
-      "NonFiction"
+      "Memoir"
     ],
     "slug": "living-to-tell-the-tale"
   },
@@ -124,11 +109,8 @@
     "title": "The Origin of Species",
     "author": "Charles Darwin",
     "tags": [
-      "NonFiction",
       "science",
       "Evolution",
-      "Classics",
-      "Philosophy",
       "History"
     ],
     "slug": "the-origin-of-species"
@@ -138,9 +120,7 @@
     "title": "سلسلة مدن الملح",
     "author": "Abdul Rahman Munif",
     "tags": [
-      "Fiction",
       "Novels",
-      "Classics",
       "History",
       "Politics"
     ],
@@ -151,9 +131,7 @@
     "title": "سباق المسافات الطويلة",
     "author": "Abdul Rahman Munif",
     "tags": [
-      "Fiction",
       "Novels",
-      "Classics",
       "History",
       "Politics"
     ],
@@ -161,16 +139,15 @@
   },
   {
     "status": "Finished",
-    "title": "Mythos: The Greek Myths Retold",
+    "title": "Mythos",
     "series": "Stephen Fry's Great Mythology",
     "order": 1,
     "author": "Stephen Fry",
     "tags": [
-      "NonFiction",
       "History",
       "Mythology"
     ],
-    "slug": "mythos-the-greek-myths-retold"
+    "slug": "mythos"
   },
   {
     "status": "Finished",
@@ -179,9 +156,7 @@
     "order": 1,
     "author": "Dan Simmons",
     "tags": [
-      "Fiction",
       "SciFi",
-      "Thriller",
       "Mystery",
       "SpaceOpera"
     ],
@@ -194,9 +169,7 @@
     "order": 2,
     "author": "Dan Simmons",
     "tags": [
-      "Fiction",
       "SciFi",
-      "Thriller",
       "Mystery",
       "SpaceOpera"
     ],
@@ -210,7 +183,6 @@
     "author": "Liu Cixin",
     "tags": [
       "SciFi",
-      "Fiction",
       "Aliens"
     ],
     "slug": "the-three-body-problem"
@@ -223,7 +195,6 @@
     "author": "Liu Cixin",
     "tags": [
       "SciFi",
-      "Fiction",
       "Aliens"
     ],
     "slug": "the-dark-forest"
@@ -236,7 +207,6 @@
     "author": "Liu Cixin",
     "tags": [
       "SciFi",
-      "Fiction",
       "Aliens"
     ],
     "slug": "deaths-end"
@@ -249,7 +219,6 @@
     "author": "Adrian Tchaikovsky",
     "tags": [
       "SciFi",
-      "Fiction",
       "SpaceOpera",
       "PostApocalyptic"
     ],
@@ -263,7 +232,6 @@
     "author": "Adrian Tchaikovsky",
     "tags": [
       "SciFi",
-      "Fiction",
       "SpaceOpera",
       "PostApocalyptic"
     ],
@@ -277,7 +245,6 @@
     "author": "Adrian Tchaikovsky",
     "tags": [
       "SciFi",
-      "Fiction",
       "SpaceOpera",
       "PostApocalyptic"
     ],
@@ -291,10 +258,7 @@
     "author": "Veronica Roth",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
       "PostApocalyptic"
     ],
     "slug": "devergent"
@@ -307,10 +271,7 @@
     "author": "Veronica Roth",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
       "PostApocalyptic"
     ],
     "slug": "insurgent"
@@ -323,10 +284,7 @@
     "author": "Veronica Roth",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
       "PostApocalyptic"
     ],
     "slug": "allegiant"
@@ -339,11 +297,8 @@
     "author": "James Dashner",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
-      "PostApocalyptic"
+      "Thriller"
     ],
     "slug": "the-maze-runner"
   },
@@ -355,11 +310,8 @@
     "author": "James Dashner",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
-      "PostApocalyptic"
+      "Thriller"
     ],
     "slug": "the-scorch-trials"
   },
@@ -371,11 +323,8 @@
     "author": "James Dashner",
     "tags": [
       "SciFi",
-      "Fiction",
-      "Mystery",
       "Dystopia",
-      "Thriller",
-      "PostApocalyptic"
+      "Thriller"
     ],
     "slug": "the-death-cure"
   },
@@ -384,7 +333,6 @@
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
     "tags": [
-      "Fiction",
       "Horror",
       "Fantasy"
     ],
@@ -395,7 +343,6 @@
     "title": "The Book Thief",
     "author": "Mark Zusak",
     "tags": [
-      "Fiction",
       "History",
       "War"
     ],
@@ -406,7 +353,6 @@
     "title": "The Boy in the Striped Pajamas",
     "author": "John Boyne",
     "tags": [
-      "Fiction",
       "War",
       "History"
     ],
@@ -417,7 +363,6 @@
     "title": "The Fault in Our Starts",
     "author": "John Green",
     "tags": [
-      "Fiction",
       "Romance"
     ],
     "slug": "the-fault-in-our-starts"
@@ -427,7 +372,6 @@
     "title": "The Paper Towns",
     "author": "John Green",
     "tags": [
-      "Fiction",
       "Romance",
       "Mystery",
       "Adventure"
@@ -439,7 +383,6 @@
     "title": "Looking for Alaska",
     "author": "John Green",
     "tags": [
-      "Fiction",
       "Romance"
     ],
     "slug": "looking-for-alaska"
@@ -450,7 +393,6 @@
     "author": "Ernest Hemingway",
     "tags": [
       "Classics",
-      "Fiction",
       "Adventure"
     ],
     "slug": "the-old-man-and-the-sea"
@@ -460,8 +402,7 @@
     "title": "احببتك اكثر مما ينبغي",
     "author": "Athier Abdullah Al-Nishmi",
     "tags": [
-      "Romance",
-      "Fiction"
+      "Romance"
     ],
     "slug": "احببتك-اكثر-مما-ينبغي"
   },
@@ -471,7 +412,6 @@
     "author": "Ahlam Musteghanemi",
     "tags": [
       "Romance",
-      "Fiction",
       "Drama"
     ],
     "slug": "الاسود-يليق-بك"
@@ -481,7 +421,6 @@
     "title": "The Kite Runner",
     "author": "Khaled Hosseini",
     "tags": [
-      "Fiction",
       "History",
       "Drama",
       "War"
@@ -493,7 +432,6 @@
     "title": "A Thousand Splendid Suns",
     "author": "Khaled Hosseini",
     "tags": [
-      "Fiction",
       "History",
       "Drama",
       "War"
@@ -505,7 +443,6 @@
     "title": "And the Mountains Echoed",
     "author": "Khaled Hosseini",
     "tags": [
-      "Fiction",
       "History",
       "Drama",
       "War"
@@ -514,31 +451,25 @@
   },
   {
     "status": "Finished",
-    "title": "God Is Not Great: How Religion Poisons Everything",
+    "title": "God Is Not Great",
     "author": "Christopher Hitchens",
     "tags": [
-      "NonFiction",
       "Religion",
       "Philosophy",
-      "Atheism",
-      "Politics",
-      "History"
+      "Atheism"
     ],
-    "slug": "god-is-not-great-how-religion-poisons-everything"
+    "slug": "god-is-not-great"
   },
   {
     "status": "Finished",
-    "title": "The Missionary Position: Mother Teresa in Theory and Practice",
+    "title": "The Missionary Position",
     "author": "Christopher Hitchens",
     "tags": [
-      "NonFiction",
       "Religion",
-      "Atheism",
       "History",
-      "Essays",
       "Philosophy"
     ],
-    "slug": "the-missionary-position-mother-teresa-in-theory-and-practice"
+    "slug": "the-missionary-position"
   },
   {
     "status": "Finished",
@@ -546,34 +477,27 @@
     "author": "Sam Harris",
     "tags": [
       "Philosophy",
-      "NonFiction",
       "Psychology",
-      "Religion",
-      "Atheism",
-      "Essays"
+      "Religion"
     ],
     "slug": "free-well"
   },
   {
     "status": "Finished",
-    "title": "The End of Faith: Religion, Terror, and the Future of Reason",
+    "title": "The End of Faith",
     "author": "Sam Harris",
     "tags": [
-      "NonFiction",
       "Philosophy",
       "Religion",
-      "Atheism",
-      "Politics",
-      "History"
+      "Politics"
     ],
-    "slug": "the-end-of-faith-religion-terror-and-the-future-of-reason"
+    "slug": "the-end-of-faith"
   },
   {
     "status": "Finished",
     "title": "The God Delusion",
     "author": "Richard Dawkins",
     "tags": [
-      "NonFiction",
       "Religion",
       "Atheism",
       "Philosophy"
@@ -582,16 +506,14 @@
   },
   {
     "status": "Finished",
-    "title": "The Greatest Show on Earth: The Evidence for Evolution",
+    "title": "The Greatest Show on Earth",
     "author": "Richard Dawkins",
     "tags": [
       "science",
-      "NonFiction",
       "Evolution",
-      "Religion",
-      "Atheism"
+      "Religion"
     ],
-    "slug": "the-greatest-show-on-earth-the-evidence-for-evolution"
+    "slug": "the-greatest-show-on-earth"
   },
   {
     "status": "Finished",
@@ -599,7 +521,6 @@
     "author": "Richard Dawkins",
     "tags": [
       "science",
-      "NonFiction",
       "Evolution",
       "Genetics"
     ],
@@ -610,10 +531,8 @@
     "title": "More Fool Me",
     "author": "Stephen Fry",
     "tags": [
-      "NonFiction",
-      "Biography",
-      "Humor",
       "Autobiography",
+      "Humor",
       "Memoir"
     ],
     "slug": "more-fool-me"
@@ -623,7 +542,6 @@
     "title": "Dark Matter",
     "author": "Blake Crouch",
     "tags": [
-      "Fiction",
       "SciFi",
       "Mystery",
       "Thriller"
@@ -635,7 +553,6 @@
     "title": "Recursion",
     "author": "Blake Crouch",
     "tags": [
-      "Fiction",
       "SciFi",
       "Mystery",
       "Thriller"
@@ -647,7 +564,6 @@
     "title": "The Infidel",
     "author": "Ali Bader",
     "tags": [
-      "Fiction",
       "War",
       "Drama"
     ],
@@ -658,9 +574,7 @@
     "title": "And Then There Were None",
     "author": "Agatha Christie",
     "tags": [
-      "Fiction",
       "Mystery",
-      "Classics",
       "Thriller",
       "Crime"
     ],
@@ -671,7 +585,6 @@
     "title": "Gone Girl",
     "author": "Gillian Flynn",
     "tags": [
-      "Fiction",
       "Mystery",
       "Thriller",
       "Crime"
@@ -683,11 +596,8 @@
     "title": "The Institute",
     "author": "Stephen King",
     "tags": [
-      "Fiction",
       "Mystery",
-      "SciFi",
       "Thriller",
-      "Fantasy",
       "Horror"
     ],
     "slug": "the-institute"
@@ -697,7 +607,6 @@
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "tags": [
-      "Fiction",
       "Fantasy",
       "Adventure",
       "Philosophy"
@@ -710,7 +619,6 @@
     "author": "Paulo Coelho",
     "tags": [
       "Romance",
-      "Fiction",
       "Philosophy"
     ],
     "slug": "adultery"
@@ -724,10 +632,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "leviathan-wakes"
   },
@@ -740,10 +645,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "the-butcher-of-anderson-station"
   },
@@ -756,10 +658,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "calibans-war"
   },
@@ -772,10 +671,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "gods-of-risk"
   },
@@ -788,10 +684,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "drive"
   },
@@ -804,10 +697,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "abadons-gate"
   },
@@ -820,10 +710,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "the-churn"
   },
@@ -836,10 +723,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "cibola-burn"
   },
@@ -852,10 +736,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "nemesis-games"
   },
@@ -868,10 +749,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "the-viral-abyss"
   },
@@ -884,10 +762,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "babylons-ashes"
   },
@@ -900,10 +775,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "strange-dogs"
   },
@@ -916,10 +788,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "persepolis-rising"
   },
@@ -932,10 +801,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "tiamats-wrath"
   },
@@ -948,10 +814,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "the-last-fight-of-the-cassandra"
   },
@@ -964,10 +827,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "auberon"
   },
@@ -980,10 +840,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "leviathan-falls"
   },
@@ -996,10 +853,7 @@
     "tags": [
       "SpaceOpera",
       "SciFi",
-      "Aliens",
-      "Horror",
-      "Mystery",
-      "Novels"
+      "Mystery"
     ],
     "slug": "the-sins-of-out-fathers"
   },
@@ -1012,9 +866,7 @@
     "tags": [
       "Fantasy",
       "Classics",
-      "Fiction",
-      "Epic",
-      "Novels"
+      "Epic"
     ],
     "slug": "the-hobbits"
   },
@@ -1027,9 +879,7 @@
     "tags": [
       "Fantasy",
       "Classics",
-      "Fiction",
-      "Epic",
-      "Novels"
+      "Epic"
     ],
     "slug": "the-fellowship-of-the-ring"
   },
@@ -1042,9 +892,7 @@
     "tags": [
       "Fantasy",
       "Classics",
-      "Fiction",
-      "Epic",
-      "Novels"
+      "Epic"
     ],
     "slug": "the-two-towers"
   },
@@ -1057,9 +905,7 @@
     "tags": [
       "Fantasy",
       "Classics",
-      "Fiction",
-      "Epic",
-      "Novels"
+      "Epic"
     ],
     "slug": "the-return-of-the-king"
   },
@@ -1068,11 +914,9 @@
     "title": "Why Evolution is True",
     "author": "Jerry A. Coyne",
     "tags": [
-      "NonFiction",
       "science",
       "Evolution",
-      "Religion",
-      "Atheism"
+      "Religion"
     ],
     "slug": "why-evolution-is-true"
   },
@@ -1083,8 +927,6 @@
     "tags": [
       "Horror",
       "Classics",
-      "Fiction",
-      "SciFi",
       "Lovecraftian"
     ],
     "slug": "the-call-of-cthulhu"
@@ -1094,7 +936,6 @@
     "title": "Blindsight",
     "author": "Peter Watts",
     "tags": [
-      "Fiction",
       "SciFi",
       "Horror",
       "Aliens"
@@ -1106,11 +947,9 @@
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "tags": [
-      "Fiction",
       "Romance",
       "Classics",
-      "Drama",
-      "History"
+      "Drama"
     ],
     "slug": "pride-and-prejudice"
   },
@@ -1119,9 +958,7 @@
     "title": "The Martian",
     "author": "Andy Weir",
     "tags": [
-      "Fiction",
       "SciFi",
-      "Humor",
       "Thriller",
       "Adventure"
     ],
@@ -1132,7 +969,6 @@
     "title": "2001: A Space Odyssey ",
     "author": "Arthur C. Clarke",
     "tags": [
-      "Fiction",
       "SciFi",
       "Mystery"
     ],
@@ -1143,11 +979,9 @@
     "title": "Inferno",
     "author": "Dan Brown",
     "tags": [
-      "Fiction",
       "Thriller",
       "Mystery",
-      "Adventure",
-      "Crime"
+      "Adventure"
     ],
     "slug": "robert-langdon-4-inferno"
   },
@@ -1156,7 +990,6 @@
     "title": "A Man Called Ove",
     "author": "Fredrik Backman",
     "tags": [
-      "Fiction",
       "Humor",
       "Drama"
     ],
@@ -1167,7 +1000,6 @@
     "title": "كبرتُ ونسيت أن أنسى",
     "author": "Bothaina Al-Isa",
     "tags": [
-      "Fiction",
       "Romance",
       "Poetry",
       "Feminism"
@@ -1181,7 +1013,7 @@
     "order": 3,
     "author": "Adrian Tchaikovsky",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Space Opera",
       "Aliens"
     ],
@@ -1192,7 +1024,6 @@
     "title": "Why We Sleep",
     "author": "Matthew Walker",
     "tags": [
-      "Nonfiction",
       "Science",
       "Health"
     ],
@@ -1203,7 +1034,6 @@
     "title": "Why Evolution is True",
     "author": "Jerry A. Coyne",
     "tags": [
-      "Nonfiction",
       "Science",
       "Evolution"
     ],
@@ -1268,7 +1098,7 @@
     "order": 1,
     "author": "Jeff VanderMeer",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Horror",
       "Weird Fiction"
     ],
@@ -1281,7 +1111,7 @@
     "order": 2,
     "author": "Jeff VanderMeer",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Horror",
       "Weird Fiction"
     ],
@@ -1294,7 +1124,7 @@
     "order": 3,
     "author": "Jeff VanderMeer",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Horror",
       "Weird Fiction"
     ],
@@ -1307,7 +1137,7 @@
     "order": 4,
     "author": "Jeff VanderMeer",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Horror",
       "Weird Fiction"
     ],
@@ -1318,7 +1148,7 @@
     "title": "Childhood's End",
     "author": "Arthur C. Clarke",
     "tags": [
-      "Science Fiction",
+      "SciFi",
       "Aliens",
       "Dystopian"
     ],
@@ -1326,27 +1156,25 @@
   },
   {
     "status": "Finished",
-    "title": "Heroes: The Greek Myths Reimagined",
+    "title": "Heroes",
     "series": "Stephen Fry's Great Mythology",
     "order": 2,
     "author": "Stephen Fry",
     "tags": [
       "Mythology",
-      "NonFiction",
       "History"
     ],
-    "slug": "heroes-the-greek-myths-reimagined"
+    "slug": "heroes"
   },
   {
     "status": "Reading",
-    "title": "Think : a compelling introduction to philosophy",
+    "title": "Think",
     "author": "Simon Blackburn",
     "tags": [
       "Philosophy",
-      "NonFiction",
       "Introduction"
     ],
-    "slug": "think-a-compelling-introduction-to-philosophy"
+    "slug": "think"
   },
   {
     "status": "Finished",
@@ -1356,7 +1184,6 @@
     "author": "James S.A. Corey",
     "tags": [
       "SciFi",
-      "Fiction",
       "Adventure"
     ],
     "slug": "the-mercy-of-gods"
@@ -1369,7 +1196,6 @@
     "author": "James S.A. Corey",
     "tags": [
       "SciFi",
-      "Fiction",
       "Adventure"
     ],
     "slug": "livesuit"
@@ -1380,7 +1206,6 @@
     "author": "Charlotte Brontë",
     "tags": [
       "Classics",
-      "Fiction",
       "Romance",
       "Drama"
     ],
@@ -1392,7 +1217,6 @@
     "author": "Neal Stephenson",
     "tags": [
       "SciFi",
-      "Fiction",
       "Cyberpunk"
     ],
     "slug": "snow-crash"
@@ -1403,7 +1227,6 @@
     "author": "Adrian Tchaikovsky",
     "tags": [
       "SciFi",
-      "Fiction",
       "Mystery",
       "Aliens"
     ],

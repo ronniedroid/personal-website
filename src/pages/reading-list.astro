@@ -2,6 +2,7 @@
 import BookCard from "../components/BookCard.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import MediaScroller from "../components/MediaScroller.astro";
 
 const crumbs = [
     {
@@ -72,7 +73,7 @@ cancelled.sort((a, b) => {
 ---
 
 <Layout title="home" crumbs={crumbs}>
-    <h1 class="title" id="title">Reading List</h1>
+    <h1 class="title">Reading List</h1>
     <p>
         Following are my reading lists, the lists are in no particular order,
         but series are sorted first to make sure all enteries of a series would
@@ -88,106 +89,116 @@ cancelled.sort((a, b) => {
         <li><a href="#cancelled">Cancelled</a></li>
     </ul>
     <h2 class="subtitle" id="reading">Currently reading</h2>
-    <p>
+    <p class="note">
         Books that I am currently reading, though I mostly focus on one book
         more than the others, I still do read more than one book at a time.
     </p>
-    <div class="books-grid">
-        {
-            reading.map((book) => (
-                <BookCard
-                    series={book.data.series ? book.data.series : null}
-                    order={book.data.order}
-                    title={book.data.title}
-                    author={book.data.author}
-                    tags={book.data.tags}
-                />
-            ))
-        }
+    <div class="wrapper">
+        <MediaScroller>
+            {
+                reading.map((book) => (
+                    <BookCard
+                        series={book.data.series ? book.data.series : null}
+                        order={book.data.order}
+                        title={book.data.title}
+                        author={book.data.author}
+                        tags={book.data.tags}
+                    />
+                ))
+            }
+        </MediaScroller>
     </div>
     <h2 class="subtitle" id="awaited">Awaited</h2>
-    <p>
+    <p class="note">
         My wishlist, books that are either in queue or I am interesting in
         reading at a later time
     </p>
-    <div class="books-grid">
-        {
-            awaited.map((book) => (
-                <BookCard
-                    series={book.data.series ? book.data.series : null}
-                    order={book.data.order}
-                    title={book.data.title}
-                    author={book.data.author}
-                    tags={book.data.tags}
-                />
-            ))
-        }
+    <div class="wrapper">
+        <MediaScroller>
+            {
+                awaited.map((book) => (
+                    <BookCard
+                        series={book.data.series ? book.data.series : null}
+                        order={book.data.order}
+                        title={book.data.title}
+                        author={book.data.author}
+                        tags={book.data.tags}
+                    />
+                ))
+            }
+        </MediaScroller>
     </div>
     <h2 class="subtitle" id="finished">Finished</h2>
-    <p>
+    <p class="note">
         Books that I have finished reading, the following are the once I do
         rememeber.
     </p>
-    <div class="books-grid">
-        {
-            finished.map((book) => (
-                <BookCard
-                    series={book.data.series ? book.data.series : null}
-                    order={book.data.order}
-                    title={book.data.title}
-                    author={book.data.author}
-                    tags={book.data.tags}
-                />
-            ))
-        }
+    <div class="wrapper">
+        <MediaScroller>
+            {
+                finished.map((book) => (
+                    <BookCard
+                        series={book.data.series ? book.data.series : null}
+                        order={book.data.order}
+                        title={book.data.title}
+                        author={book.data.author}
+                        tags={book.data.tags}
+                    />
+                ))
+            }
+        </MediaScroller>
     </div>
     <h2 class="subtitle" id="unfinished">Unfinished</h2>
-    <p>
+    <p class="note">
         Books that I have not finished reading, and intend to go back and
         re-read one day.
     </p>
-    <div class="books-grid">
-        {
-            unfinished.map((book) => (
-                <BookCard
-                    series={book.data.series ? book.data.series : null}
-                    order={book.data.order}
-                    title={book.data.title}
-                    author={book.data.author}
-                    tags={book.data.tags}
-                />
-            ))
-        }
+    <div class="wrapper">
+        <MediaScroller>
+            {
+                unfinished.map((book) => (
+                    <BookCard
+                        series={book.data.series ? book.data.series : null}
+                        order={book.data.order}
+                        title={book.data.title}
+                        author={book.data.author}
+                        tags={book.data.tags}
+                    />
+                ))
+            }
+        </MediaScroller>
     </div>
     <h2 class="subtitle" id="cancelled">Cancelled</h2>
-    <p>
+    <p class="note">
         Books that I have finished reading, and I am not interested in finishing
         at all.
     </p>
-    <div class="books-grid">
-        {
-            cancelled.map((book) => (
-                <BookCard
-                    series={book.data.series ? book.data.series : null}
-                    order={book.data.order}
-                    title={book.data.title}
-                    author={book.data.author}
-                    tags={book.data.tags}
-                />
-            ))
-        }
+    <div class="wrapper">
+        <MediaScroller>
+            {
+                cancelled.map((book) => (
+                    <BookCard
+                        series={book.data.series ? book.data.series : null}
+                        order={book.data.order}
+                        title={book.data.title}
+                        author={book.data.author}
+                        tags={book.data.tags}
+                    />
+                ))
+            }
+        </MediaScroller>
     </div>
-    <a href="#title" class="fab-wrapper">
-        <div class="fab">
-            <p>^</p>
-        </div>
-    </a>
 </Layout>
 
 <style>
     p,
     li {
         font-size: var(--fs-sm);
+        max-width: 75ch;
+    }
+
+    .note {
+        max-width: 45ch;
     }
 
     .toc {
@@ -204,28 +215,7 @@ cancelled.sort((a, b) => {
         color: var(--on-surface);
     }
 
-    .books-grid {
-        display: grid;
-        gap: 1rem;
-        margin-block: 1rem;
-    }
-
-    .fab-wrapper {
-        text-decoration: none;
-        position: sticky;
-        bottom: 3em;
-        left: 100%;
-    }
-
-    .fab {
-        background-color: var(--tertiary-container);
-        color: var(--on-tertiary-container);
-        border-radius: 50%;
-        border: 1px solid var(--outline);
-        width: 3rem;
-        height: 3rem;
-        display: grid;
-        place-items: center;
-        place-content: center;
+    .wrapper {
+        overflow-x: hidden;
     }
 </style>
