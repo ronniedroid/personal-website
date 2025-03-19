@@ -252,7 +252,7 @@
   },
   {
     "status": "Finished",
-    "title": "Devergent",
+    "title": "Divergent",
     "series": "Divergent",
     "order": 1,
     "author": "Veronica Roth",
@@ -261,13 +261,13 @@
       "Dystopia",
       "PostApocalyptic"
     ],
-    "slug": "devergent"
+    "slug": "divergent"
   },
   {
     "status": "Finished",
     "title": "Insurgent",
     "series": "Divergent",
-    "order": 1,
+    "order": 2,
     "author": "Veronica Roth",
     "tags": [
       "SciFi",
@@ -280,7 +280,7 @@
     "status": "Finished",
     "title": "Allegiant",
     "series": "Divergent",
-    "order": 1,
+    "order": 3,
     "author": "Veronica Roth",
     "tags": [
       "SciFi",
