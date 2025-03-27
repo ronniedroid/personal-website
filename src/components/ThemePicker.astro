@@ -1,0 +1,50 @@
+<form class="theme-picker" action="">
+    <fieldset>
+        <legend class="visually-hidden">pick a theme and mode</legend>
+        <label class="visually-hidden" for="pink">Pink</label>
+        <input type="radio" name="theme" id="pink" />
+        <label class="visually-hidden" for="green">Green</label>
+        <input type="radio" name="theme" id="green" />
+        <label class="visually-hidden" for="blue">Blue</label>
+        <input type="radio" name="theme" id="blue" />
+        <label class="visually-hidden" for="dark-mode">Dark mode</label>
+        <input type="checkbox" name="dark-mode" id="dark-mode" />
+    </fieldset>
+</form>
+
+<style>
+    .theme-picker {
+        padding-block-end: 2rem;
+        justify-self: center;
+    }
+
+    .theme-picker > fieldset {
+        border: 0;
+        display: flex;
+        gap: 2rem;
+        width: fit-content;
+    }
+
+    .theme-picker input[type="radio"] {
+        appearance: none;
+        width: 0.5rem;
+        height: 0.5em;
+        outline: 2px solid var(--radio-color, currentColor);
+        outline-offset: 3px;
+        border-radius: 50%;
+    }
+
+    .theme-picker input[type="radio"]:checked {
+        background-color: var(--radio-color);
+    }
+
+    .theme-picker input[type="radio"]#pink {
+        --radio-color: var(--primary-pink);
+    }
+    .theme-picker input[type="radio"]#blue {
+        --radio-color: var(--primary-blue);
+    }
+    .theme-picker input[type="radio"]#green {
+        --radio-color: var(--primary-green);
+    }
+</style>

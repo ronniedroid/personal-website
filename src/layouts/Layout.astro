@@ -1,6 +1,8 @@
 ---
 import Breadcrumbs from "../components/Breadcrumbs.astro";
+import ThemePicker from "../components/ThemePicker.astro";
 import "../styles/style.css";
+import "../styles/themes.css";
 const { title = "page", crumbs = false } = Astro.props;
 import "@fontsource-variable/inter";
 ---
@@ -21,11 +23,12 @@ import "@fontsource-variable/inter";
 	<body>
 		<main>
 			<nav class="main-nav">
+				<ThemePicker />
 				<h1><a href="/">Ronnie Nissan</a></h1>
 				<ul>
 					<li><a href="/portfolio">Portfolio</a></li>
 					<li><a href="/">Blog</a></li>
-					<li><a href="/poems">My poems</a></li>
+					<li><a href="/poems">Poems</a></li>
 					<li><a href="/reading-lists">Reading lists</a></li>
 					<li><a href="/about">About</a></li>
 				</ul>
