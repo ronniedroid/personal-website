@@ -4,13 +4,13 @@ import { Icon } from "astro-icon/components";
 
 <form action="">
     <fieldset class="theme-picker">
+        <label class="visually-hidden" for="blue">Blue</label>
+        <input type="radio" name="theme" id="blue" checked />
         <legend class="visually-hidden">pick a theme</legend>
         <label class="visually-hidden" for="pink">Pink</label>
-        <input type="radio" name="theme" id="pink" checked />
+        <input type="radio" name="theme" id="pink" />
         <label class="visually-hidden" for="green">Green</label>
         <input type="radio" name="theme" id="green" />
-        <label class="visually-hidden" for="blue">Blue</label>
-        <input type="radio" name="theme" id="blue" />
     </fieldset>
     <fieldset class="mode-picker">
         <legend class="visually-hidden">pick a color mode</legend>
