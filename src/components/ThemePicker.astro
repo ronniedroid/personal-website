@@ -1,32 +1,78 @@
-<form class="theme-picker" action="">
-    <fieldset>
-        <legend class="visually-hidden">pick a theme and mode</legend>
+---
+import { Icon } from "astro-icon/components";
+---
+
+<form action="">
+    <fieldset class="theme-picker">
+        <legend class="visually-hidden">pick a theme</legend>
         <label class="visually-hidden" for="pink">Pink</label>
-        <input type="radio" name="theme" id="pink" />
+        <input type="radio" name="theme" id="pink" checked />
         <label class="visually-hidden" for="green">Green</label>
         <input type="radio" name="theme" id="green" />
         <label class="visually-hidden" for="blue">Blue</label>
         <input type="radio" name="theme" id="blue" />
+    </fieldset>
+    <fieldset class="mode-picker">
+        <legend class="visually-hidden">pick a color mode</legend>
+        <label class="visually-hidden" for="light-mode">Follow system</label>
+        <label aria-hidden="true" for="system"
+            ><Icon name="settings" size="1.2rem" /></label
+        >
+        <input
+            class="visually-hidden"
+            type="radio"
+            name="color-mode"
+            id="system"
+            checked
+        />
+        <label class="visually-hidden" for="light-mode">Light mode</label>
+        <label aria-hidden="true" for="light-mode"
+            ><Icon name="lightmode" size="1.2rem" /></label
+        >
+        <input
+            class="visually-hidden"
+            type="radio"
+            name="color-mode"
+            id="light-mode"
+        />
         <label class="visually-hidden" for="dark-mode">Dark mode</label>
-        <input type="checkbox" name="dark-mode" id="dark-mode" />
+        <label aria-hidden="true" for="dark-mode"
+            ><Icon name="darkmode" size="1.2rem" /></label
+        >
+        <input
+            class="visually-hidden"
+            type="radio"
+            name="color-mode"
+            id="dark-mode"
+        />
     </fieldset>
 </form>
 
 <style>
-    .theme-picker {
+    form {
         padding-block-end: 2rem;
-        justify-self: center;
+        justify-self: start;
+        display: grid;
+        gap: 1.2rem;
     }
 
-    .theme-picker > fieldset {
+    fieldset {
         border: 0;
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
-        width: fit-content;
+    }
+
+    input[type="radio"] {
+        appearance: none;
+    }
+
+    .theme-picker {
+        padding-inline-start: 6px;
+        padding-block-start: 6px;
     }
 
     .theme-picker input[type="radio"] {
-        appearance: none;
         width: 0.5rem;
         height: 0.5em;
         outline: 2px solid var(--radio-color, currentColor);
@@ -46,5 +92,18 @@
     }
     .theme-picker input[type="radio"]#green {
         --radio-color: var(--primary-green);
+    }
+
+    .mode-picker label {
+        width: 0.5rem;
+        height: 0.5em;
+    }
+
+    [data-icon] {
+        color: var(--on-surface-container);
+    }
+
+    .mode-picker label:has(+ input[type="radio"]:checked) [data-icon] {
+        color: var(--primary);
     }
 </style>
