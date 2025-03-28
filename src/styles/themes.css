@@ -167,36 +167,6 @@
     --surface-container-highest-dark-blue: #34343a;
 }
 
-:root {
-    /* general colors */
-    --primary-pink: var(--primary-light-pink);
-    --primary-green: var(--primary-light-green);
-    --primary-blue: var(--primary-light-blue);
-}
-
-:root:has(#light-mode:checked) {
-    /* general colors */
-    --primary-pink: var(--primary-light-pink);
-    --primary-green: var(--primary-light-green);
-    --primary-blue: var(--primary-light-blue);
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        /* general colors */
-        --primary-pink: var(--primary-dark-pink);
-        --primary-green: var(--primary-dark-green);
-        --primary-blue: var(--primary-dark-blue);
-    }
-}
-
-:root:has(#dark-mode:checked) {
-    /* general colors */
-    --primary-pink: var(--primary-dark-pink);
-    --primary-green: var(--primary-dark-green);
-    --primary-blue: var(--primary-dark-blue);
-}
-
 :root:has(#pink:checked) {
     color-scheme: light;
     /* set defaults */

@@ -130,13 +130,37 @@ import { Icon } from "astro-icon/components";
     }
 
     .theme-picker input[type="radio"]#pink {
-        --radio-color: var(--primary-pink);
+        --radio-color: var(--primary-light-pink);
     }
     .theme-picker input[type="radio"]#blue {
-        --radio-color: var(--primary-blue);
+        --radio-color: var(--primary-light-blue);
     }
     .theme-picker input[type="radio"]#green {
-        --radio-color: var(--primary-green);
+        --radio-color: var(--primary-light-green);
+    }
+
+    form:has(#dark-mode:checked) .theme-picker input[type="radio"]#pink {
+        --radio-color: var(--primary-dark-pink);
+    }
+
+    form:has(#dark-mode:checked) .theme-picker input[type="radio"]#blue {
+        --radio-color: var(--primary-dark-blue);
+    }
+
+    form:has(#dark-mode:checked) .theme-picker input[type="radio"]#green {
+        --radio-color: var(--primary-dark-green);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .theme-picker input[type="radio"]#pink {
+            --radio-color: var(--primary-dark-pink);
+        }
+        .theme-picker input[type="radio"]#blue {
+            --radio-color: var(--primary-dark-blue);
+        }
+        .theme-picker input[type="radio"]#green {
+            --radio-color: var(--primary-dark-green);
+        }
     }
 
     .mode-picker label {
