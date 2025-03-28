@@ -21,7 +21,7 @@ import { Icon } from "astro-icon/components";
         <input
             class="visually-hidden"
             type="radio"
-            name="color-mode"
+            name="mode"
             id="system"
             checked
         />
@@ -32,7 +32,7 @@ import { Icon } from "astro-icon/components";
         <input
             class="visually-hidden"
             type="radio"
-            name="color-mode"
+            name="mode"
             id="light-mode"
         />
         <label class="visually-hidden" for="dark-mode">Dark mode</label>
@@ -42,11 +42,56 @@ import { Icon } from "astro-icon/components";
         <input
             class="visually-hidden"
             type="radio"
-            name="color-mode"
+            name="mode"
             id="dark-mode"
         />
     </fieldset>
 </form>
+
+<script is:inline>
+    const colorThemes = document.querySelectorAll('[name="theme"]');
+    const colorModes = document.querySelectorAll('[name="mode"]');
+
+    // store theme
+    const storeLocally = function (key, value) {
+        localStorage.setItem(key, value);
+    };
+
+    // set theme when visitor returns
+    const setTheme = function () {
+        const activeTheme = localStorage.getItem("theme");
+        colorThemes.forEach((theme) => {
+            if (theme.id === activeTheme) {
+                theme.checked = true;
+            }
+        });
+    };
+
+    // set theme when visitor returns
+    const setMode = function () {
+        const activeMode = localStorage.getItem("mode");
+        colorModes.forEach((mode) => {
+            if (mode.id === activeMode) {
+                mode.checked = true;
+            }
+        });
+    };
+
+    colorThemes.forEach((theme) => {
+        theme.addEventListener("click", () => {
+            storeLocally("theme", theme.id);
+        });
+    });
+
+    colorModes.forEach((mode) => {
+        mode.addEventListener("click", () => {
+            storeLocally("mode", mode.id);
+        });
+    });
+
+    document.onload = setTheme();
+    document.onload = setMode();
+</script>
 
 <style>
     form {
