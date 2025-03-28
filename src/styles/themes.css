@@ -330,7 +330,7 @@
     :root:has(#blue:checked) {
         color-scheme: dark;
 
-        --primary: var(--primary-dark-green);
+        --primary: var(--primary-dark-blue);
         --on-primary: var(--on-primary-dark-blue);
         --primary-container: var(--primary-container-dark-blue);
         --on-primary-container: var(--on-primary-container-dark-blue);
