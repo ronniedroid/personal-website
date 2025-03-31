@@ -129,13 +129,16 @@ import { Icon } from "astro-icon/components";
         background-color: var(--radio-color);
     }
 
-    .theme-picker input[type="radio"]#pink {
+    .theme-picker input[type="radio"]#pink,
+    form:has(#light-mode:checked) .theme-picker input[type="radio"]#pink {
         --radio-color: var(--primary-light-pink);
     }
-    .theme-picker input[type="radio"]#blue {
+    .theme-picker input[type="radio"]#blue,
+    form:has(#light-mode:checked) .theme-picker input[type="radio"]#blue {
         --radio-color: var(--primary-light-blue);
     }
-    .theme-picker input[type="radio"]#green {
+    .theme-picker input[type="radio"]#green,
+    form:has(#light-mode:checked) .theme-picker input[type="radio"]#green {
         --radio-color: var(--primary-light-green);
     }
 
