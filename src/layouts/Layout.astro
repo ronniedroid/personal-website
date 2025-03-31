@@ -27,7 +27,7 @@ import "@fontsource-variable/inter";
 				<h1><a href="/">Ronnie Nissan</a></h1>
 				<ul>
 					<li><a href="/portfolio">Portfolio</a></li>
-					<li><a href="/">Blog</a></li>
+					<li><a href="/blog">Blog</a></li>
 					<li><a href="/poems">Poems</a></li>
 					<li><a href="/reading-lists">Reading lists</a></li>
 					<li><a href="/about">About</a></li>
@@ -58,6 +58,14 @@ import "@fontsource-variable/inter";
 		</main>
 	</body>
 </html>
+
+<script is:inline>
+	document.querySelectorAll(".main-nav li").forEach((li) => {
+		if (li.querySelector(`a[href="${window.location.pathname}"]`)) {
+			li.classList.add("active");
+		}
+	});
+</script>
 
 <style>
 	main {
@@ -125,14 +133,19 @@ import "@fontsource-variable/inter";
 
 	.main-nav a {
 		text-decoration: none;
-		color: var(--tertiary);
+		color: var(--on-surface);
 		white-space: nowrap;
+	}
+
+	.main-nav li.active > a {
+		text-decoration: underline;
+		color: var(--primary);
 	}
 
 	.main-nav a:hover,
 	.main-nav a:focus {
 		text-decoration: underline;
-		color: var(--on-surface);
+		color: var(--primary);
 	}
 
 	.content-wrapper {
@@ -141,6 +154,12 @@ import "@fontsource-variable/inter";
 		grid-template-rows: 100px auto auto;
 		padding-block-end: 2rem;
 		max-width: 100%;
+	}
+
+	@media (min-width: 1300px) {
+		.content-wrapper {
+			height: 100dvh;
+		}
 	}
 
 	header {

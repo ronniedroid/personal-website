@@ -74,6 +74,7 @@ const arabic = await getCollection("poems", ({ data }) => {
     }
 
     .poem-list li {
+        --_date-color: var(--date-color, var(--secondary));
         counter-increment: poem-counter;
         position: relative;
         padding-left: 8em;
@@ -87,7 +88,7 @@ const arabic = await getCollection("poems", ({ data }) => {
         left: 0;
         text-align: right;
         line-height: 2.2;
-        color: var(--secondary);
+        color: var(--_date-color);
     }
 
     .poem-list li::marker {
@@ -101,5 +102,6 @@ const arabic = await getCollection("poems", ({ data }) => {
 
     a:hover {
         text-decoration: underline;
+        color: var(--primary);
     }
 </style>

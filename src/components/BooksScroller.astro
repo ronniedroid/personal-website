@@ -11,7 +11,7 @@ const { list } = Astro.props;
             #{book.data.order} of {book.data.series}
           </p>
         ) : (
-          <p class="series-banner">Standalone</p>
+          <p class="series-banner">-</p>
         )}
         <h3>{book.data.title}</h3>
         <p class="author">By {book.data.author}</p>

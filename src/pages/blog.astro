@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const crumbs = [
+	{
+		name: "home",
+		link: "/",
+		disabled: false,
+	},
+	{
+		name: "blog",
+		link: "/blog",
+		disabled: true,
+	},
+];
+---
+
+<Layout title="blog" crumbs={crumbs}>
+	<h1 class="title">Blog</h1>
+
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea,
+		molestias delectus animi laborum iure. Temporibus sequi quo possimus
+		velit voluptates omnis corporis rerum quisquam, perspiciatis,
+		repellendus a eius? Nam, incidunt minima accusamus odit vero, corrupti
+		praesentium nesciunt eligendi distinctio id deserunt eius fugit dolore
+		quod! Dicta deserunt dignissimos dolore harum odit excepturi accusamus
+		dolor necessitatibus fugit laboriosam. Unde iure nostrum esse! Sed nihil
+		tenetur, quidem sunt cum autem? Aut, facilis deserunt? Animi modi qui
+		eius consectetur nisi sit, laborum maiores iusto similique maxime est
+		incidunt aspernatur praesentium nulla illum doloribus et sint dolorum
+		eveniet quod debitis. Cumque, dolor consequatur.
+	</p>
+</Layout>
