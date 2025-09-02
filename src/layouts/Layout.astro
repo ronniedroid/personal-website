@@ -24,8 +24,8 @@ import "@fontsource-variable/inter";
 		<main>
 			<nav class="main-nav">
 				<ThemePicker />
-				<h1><a href="/">Ronnie Nissan</a></h1>
-				<ul>
+				<h1 class="title"><a href="/">Ronnie Nissan</a></h1>
+				<ul class="main-nav__list">
 					<li><a href="/portfolio">Portfolio</a></li>
 					<li><a href="/blog">Blog</a></li>
 					<li><a href="/poems">Poems</a></li>
@@ -105,7 +105,7 @@ import "@fontsource-variable/inter";
 		}
 	}
 
-	.main-nav > ul {
+	.main-nav > .main-nav__list > li {
 		list-style: none;
 		font-size: var(--fs-md);
 		max-width: 100%;
@@ -115,13 +115,13 @@ import "@fontsource-variable/inter";
 	}
 
 	@media (min-width: 1300px) {
-		.main-nav > ul {
+		.main-nav > .main-nav__list {
 			flex-direction: column;
 			gap: unset;
 		}
 	}
 
-	.main-nav > h1 {
+	.main-nav > .title {
 		padding-block-end: 1rem;
 		font-weight: 600;
 		font-size: var(--fs-md);
