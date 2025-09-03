@@ -5,7 +5,7 @@ layout: ../layouts/ReadingListLayout.astro
 
 # Reading Lists
 
-Following are my reading lists, the lists are in no particular order,cbut series are sorted first to make sure all enteries of a series would be grouped together, I say reading, but I mostly do listening as audiobooks are my favorite way to consume books. The lists are as follows:
+Following are my reading lists, the lists are in no particular order, but series are sorted first to make sure all enteries of a series would be grouped together, I say reading, but I mostly do listening as audiobooks are my favorite way to consume books. The lists are as follows:
 
 - [Currently Reading](#currently-reading)
 - [Awaited](#awaited)

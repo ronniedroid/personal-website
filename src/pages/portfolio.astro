@@ -18,6 +18,16 @@ const crumbs = [
 const frontend = await getCollection("frontend");
 const desktopApps = await getCollection("desktopApps");
 const cliApps = await getCollection("cliApps");
+
+interface Entery {
+    id: string,
+    data: {
+        name: string,
+        description: string[]
+        link: URL,
+        github: URL | string
+    }
+}
 ---
 
 <Layout title="home" crumbs={crumbs}>
@@ -25,35 +35,63 @@ const cliApps = await getCollection("cliApps");
     <h2 class="subtitle">frontend</h2>
     <ul>
         {
-            frontend.map((post: { id: any; data: { name: unknown } }) => (
-                <h3>{post.data.name}</h3>
+            frontend.map((entery: Entery) => (
+            <a href={entery.data.link} target="_blank"><h3>{entery.data.name}</h3></a>
+            <div>{ entery.data.github != "private" ? <a class="github" href={entery.data.github} target="_blank">Source code</a> : ""}</div>
+            <ul>
+                {
+                    entery.data.description.map((feature: string) => (
+                    <li>{feature}</li>
+                    ))
+                    }
+                </ul>
             ))
         }
     </ul>
     <h2 class="subtitle">desktop apps</h2>
     <ul>
         {
-            desktopApps.map((post: { id: any; data: { name: unknown } }) => (
-                <h3>{post.data.name}</h3>
-            ))
+            desktopApps.map((entery: Entery) => (
+                <a href={entery.data.link} target="_blank"><h3>{entery.data.name}</h3></a>
+                <a class="github" href={entery.data.github} target="_blank">Source code</a>
+                <ul>
+                {
+                    entery.data.description.map((feature: string) => (
+                    <li>{feature}</li>
+                    ))
+                    }
+                </ul>
+                ))
         }
     </ul>
     <h2 class="subtitle">CLI tools</h2>
     <ul>
         {
-            cliApps.map((post: { id: any; data: { name: unknown } }) => (
-                <h3>{post.data.name}</h3>
+            cliApps.map((entery: Entery) => (
+            <div class="card">
+                <a href={entery.data.link} target="_blank"><h3>{entery.data.name}</h3></a>
+                <ul>
+                {
+                    entery.data.description.map((feature: string) => (
+                    <li>{feature}</li>
+                    ))
+                    }
+                </ul>
+            </div>
             ))
         }
     </ul>
 </Layout>
 
 <style>
-    h1 > span {
-        text-transform: lowercase;
-        font-size: var(--fs-sm);
+    a {
+        text-decoration: none;
     }
-    p {
-        font-size: var(--fs-sm);
+    .github {
+        display: block;
+        font-size: var(--fs-xs);
+        color: var(--on-surface);
+        font-style: italic;
+        padding-block-end: 0.4rem;
     }
 </style>

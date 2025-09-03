@@ -24,8 +24,8 @@ import "@fontsource-variable/inter";
 		<main>
 			<nav class="main-nav">
 				<ThemePicker />
-				<h1 class="title"><a href="/">Ronnie Nissan</a></h1>
-				<ul class="main-nav__list">
+				<h1><a href="/">Ronnie Nissan</a></h1>
+				<ul>
 					<li><a href="/portfolio">Portfolio</a></li>
 					<li><a href="/blog">Blog</a></li>
 					<li><a href="/poems">Poems</a></li>
@@ -105,7 +105,7 @@ import "@fontsource-variable/inter";
 		}
 	}
 
-	.main-nav > .main-nav__list > li {
+	.main-nav > ul > li {
 		list-style: none;
 		font-size: var(--fs-md);
 		max-width: 100%;
@@ -115,13 +115,13 @@ import "@fontsource-variable/inter";
 	}
 
 	@media (min-width: 1300px) {
-		.main-nav > .main-nav__list {
+		.main-nav > ul {
 			flex-direction: column;
 			gap: unset;
 		}
 	}
 
-	.main-nav > .title {
+	.main-nav > h1 {
 		padding-block-end: 1rem;
 		font-weight: 600;
 		font-size: var(--fs-md);
@@ -129,21 +129,10 @@ import "@fontsource-variable/inter";
 
 	.main-nav > h1 > a {
 		color: var(--primary);
-	}
-
-	.main-nav a {
 		text-decoration: none;
-		color: var(--on-surface);
-		white-space: nowrap;
 	}
 
 	.main-nav li.active > a {
-		text-decoration: underline;
-		color: var(--primary);
-	}
-
-	.main-nav a:hover,
-	.main-nav a:focus {
 		text-decoration: underline;
 		color: var(--primary);
 	}
@@ -182,6 +171,7 @@ import "@fontsource-variable/inter";
 	.content {
 		max-width: calc(100vw - 4rem);
 		padding-block-end: 2rem;
+		padding-inline-start: 1rem;
 	}
 
 	@media (min-width: 1300px) {
@@ -192,12 +182,15 @@ import "@fontsource-variable/inter";
 	}
 
 	footer {
-		max-width: 75ch;
 		max-height: min-content;
 		background-color: var(--surface);
 		font-weight: 300;
 		color: var(--secondary);
 		display: grid;
 		align-items: end;
+	}
+
+	footer > p {
+		max-width: 75ch;
 	}
 </style>

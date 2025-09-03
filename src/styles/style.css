@@ -1,59 +1,65 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 :root {
-    /* Typography */
-    --fs-xxs: 0.8rem;
-    --fs-xs: 1rem;
-    --fs-sm: 1.125rem;
-    --fs-fl-sm: clamp(1.25rem, 1vw + 0.5rem, 1.5rem);
-    --fs-md: 1.5rem;
-    --fs-fl-md: clamp(1.5rem, 2.5vw + 1rem, 2.5rem);
-    --fs-lg: 2.5rem;
-    --fs-fl-lg: clamp(2.5rem, 4vw + 1rem, 4rem);
+  /* Typography */
+  --fs-xxs: 0.8rem;
+  --fs-xs: 1rem;
+  --fs-sm: 1.125rem;
+  --fs-fl-sm: clamp(1.25rem, 1vw + 0.5rem, 1.5rem);
+  --fs-md: 1.5rem;
+  --fs-fl-md: clamp(1.5rem, 2.5vw + 1rem, 2.5rem);
+  --fs-lg: 2.5rem;
+  --fs-fl-lg: clamp(2.5rem, 4vw + 1rem, 4rem);
 }
 
 html {
-    color-scheme: dark light;
-    hanging-punctuation: first last;
-    scroll-padding-top: 6rem;
-    background-color: var(--surface);
-    color: var(--on-surface);
-    accent-color: var(--tertiary);
-    scroll-behavior: smooth;
-    font-family: Inter;
+  color-scheme: dark light;
+  hanging-punctuation: first last;
+  scroll-padding-top: 6rem;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  accent-color: var(--tertiary);
+  scroll-behavior: smooth;
+  font-family: Inter;
 }
 
 body {
-    font-family: "Inter Variable", sans-serif;
-    font-weight: normal;
+  font-family: "Inter Variable", sans-serif;
+  font-weight: normal;
 
-    min-height: 100vh;
-    min-height: 100dvh;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 dialog {
-    border: 2px solid var(--outline);
+  border: 2px solid var(--outline);
 }
 
 strong {
-    font-weight: 600;
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  font-size: var(--fs-xs);
+  color: var(--tertiary);
 }
 
 p,
 li {
-    font-size: var(--fs-sm);
-    line-height: 1.6;
+  font-size: var(--fs-sm);
+  line-height: 1.6;
 }
 
 p {
-    text-wrap: pretty;
+  text-wrap: pretty;
 }
 
 h1,
@@ -62,34 +68,54 @@ h3,
 h4,
 h5,
 h6 {
-    text-wrap: balanced;
-    text-transform: capitalize;
-    line-height: 1.2;
+  text-wrap: balanced;
+  text-transform: capitalize;
+  line-height: 1.2;
 }
 
 ::marker {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 .title,
 h1 {
-    font-size: var(--fs-fl-lg);
-    color: var(--primary);
+  font-size: var(--fs-fl-lg);
+  color: var(--primary);
 }
 
 .subtitle,
 h2 {
-    font-size: var(--fs-fl-md);
-    color: var(--secondary);
-    padding-block-start: 1.2rem;
+  font-size: var(--fs-fl-md);
+  color: var(--secondary);
+  padding-block-start: 1.2rem;
+}
+
+h3 {
+  font-size: var(--fs-md);
+  color: var(--tertiary);
+  font-weight: 600;
+  line-height: 1.4;
+  padding-block-start: 1rem;
 }
 
 .visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    height: 1px;
-    overflow: hidden;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+li>a {
+  color: var(--on-surface);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+li>a:hover,
+li>a:focus {
+  color: var(--primary);
+  text-decoration: underline;
 }
