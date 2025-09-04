@@ -108,14 +108,13 @@ h3 {
   width: 1px;
 }
 
-li>a {
+li > a {
   color: var(--on-surface);
-  text-decoration: none;
   white-space: nowrap;
 }
 
-li>a:hover,
-li>a:focus {
+li > a:hover,
+li > a:focus {
   color: var(--primary);
   text-decoration: underline;
 }

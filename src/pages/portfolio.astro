@@ -32,7 +32,17 @@ interface Entery {
 
 <Layout title="home" crumbs={crumbs}>
     <h1 class="title">My Portfolio</h1>
-    <h2 class="subtitle">frontend</h2>
+    <p>My portfolio is a combination of programming and design projects, the websites are a combination of both.
+        I tend to make things that I am interested in or serve a personal need, even the websites I build for
+        the NGO I worked for I build as an initiative from me. I consider programming like any other skill I have.
+        For example, I do some woodworking from time to time, but only when I am building something I need or want to make.
+        I hope you find something useful and joyful to use for yourself in this page.</p>
+        <ul class="page-nav">
+        <li><a href="#frontend">Front end</a></li>
+        <li><a href="#desktop">Desktop apps</a></li>
+        <li><a href="#cli">CLI tools</a></li>
+    </ul>
+    <h2 class="subtitle" id="frontend">front end</h2>
     <ul>
         {
             frontend.map((entery: Entery) => (
@@ -48,7 +58,7 @@ interface Entery {
             ))
         }
     </ul>
-    <h2 class="subtitle">desktop apps</h2>
+    <h2 class="subtitle" id="desktop">desktop apps</h2>
     <ul>
         {
             desktopApps.map((entery: Entery) => (
@@ -64,7 +74,7 @@ interface Entery {
                 ))
         }
     </ul>
-    <h2 class="subtitle">CLI tools</h2>
+    <h2 class="subtitle" id="cli">CLI tools</h2>
     <ul>
         {
             cliApps.map((entery: Entery) => (
@@ -84,14 +94,25 @@ interface Entery {
 </Layout>
 
 <style>
-    a {
-        text-decoration: none;
-    }
     .github {
         display: block;
         font-size: var(--fs-xs);
         color: var(--on-surface);
         font-style: italic;
         padding-block-end: 0.4rem;
+    }
+
+    a {
+        display: flex;
+        align-items: baseline;
+    }
+
+    a[href^="https://"]:after {
+        content: "🔗";
+        margin: 0 0 0 5px;
+    }
+
+    p:first-of-type {
+        padding-block-end: 1rem;
     }
 </style>

@@ -36,6 +36,18 @@
         "Fully translatable to any language, currently translated to Arabic.",
         "This website was made as a contribution to the Fossify project, which has a mission to make ad-free, privacy focused apps for android."
       ]
+    },
+    {
+      "id": "f4",
+      "name": "ronnienissan.pages.dev (this website)",
+      "link": "https://ronnienissan.pages.dev",
+      "github": "https://github.com/ronniedroid/personal-website",
+      "description": [
+        "Build using Astro.",
+        "Responsive and accessible design, designed from the ground up using HTML and CSS.",
+        "Focoses on accesibility and ease of use/reading",
+        "Scores perfectly on performance and accessibility on Google’s lighthouse benchmark."
+      ]
     }
   ],
   "cliApps": [
