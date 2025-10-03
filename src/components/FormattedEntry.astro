@@ -1,0 +1,68 @@
+---
+import type { BookEntry } from "../types";
+
+interface Props {
+  entry: BookEntry;
+}
+
+const { entry } = Astro.props;
+const { status, series, number, title, author, tags } = entry;
+function prettifySeries(raw: string): string {
+  return raw.replace(/([a-z])([A-Z])/g, "$1 $2").trim();
+}
+---
+
+<li class="bookEntry">
+  <p>
+    <span class={status}>{status}</span>
+    <strong>{title}</strong>
+    {series ? `${prettifySeries(series)}` : ""}
+    {number ? number : ""} -- {author}
+  </p>
+  <ul>
+    ({tags.map((tag) => <li>{tag.slice(1)}</li>)})
+  </ul>
+</li>
+
+<style>
+  .bookEntry {
+    padding-block-start: 0.5rem;
+  }
+  p > span {
+    text-transform: capitalize;
+  }
+
+  .current {
+    color: var(--primary);
+  }
+
+  .awaited {
+    color: #e65100;
+  }
+
+  .read {
+    color: #1b5e20;
+  }
+
+  .cancelled {
+    color: #b71c1c;
+  }
+
+  ul {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    place-content: start;
+    place-items: start;
+  }
+
+  ul > li {
+    color: var(--tertiary);
+    text-transform: capitalize;
+  }
+
+  ul > li:not(:last-child):after {
+    content: ",";
+    padding-inline-end: 1ch;
+  }
+</style>
