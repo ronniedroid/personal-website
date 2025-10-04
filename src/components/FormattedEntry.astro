@@ -19,7 +19,7 @@ function prettifySeries(raw: string): string {
     {number ? number : ""} -- {author}
   </p>
   <ul>
-    ({tags.map((tag) => <li>{tag.slice(1)}</li>)})
+    {tags.map((tag) => <li>{tag.slice(1)}</li>)}
   </ul>
 </li>
 
@@ -30,8 +30,8 @@ function prettifySeries(raw: string): string {
 
   ul {
     list-style: none;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
     place-content: start;
     place-items: start;
   }
