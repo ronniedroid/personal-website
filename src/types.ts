@@ -3,6 +3,6 @@ export interface BookEntry {
   series: string | null;
   number: string | null;
   title: string;
-  author: string;
+  author: string | null;
   tags: string[];
 }

@@ -18,34 +18,56 @@ const crumbs = [
   },
 ];
 
+function prettifyPascalCase(token: string | null): string | null {
+  if (!token) return null;
+  return token
+    .replace(/\.([A-Z])/g, ". $1")
+    .replace(/([a-z])([A-Z])/g, "$1 $2")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 const entries: BookEntry[] = rawList
   .split("\n")
-  .filter((line) => line.trim().length > 0)
+  .filter((line) => line.trim())
+  .filter(Boolean)
   .map((line) => {
-    const statusMatch = line.match(/^\((.*?)\)/);
+    let working = line.trim();
+
+    // --- Extract status ---
+    const statusMatch = working.match(/\(([^)]+)\)/);
     const status = statusMatch ? statusMatch[1] : "unknown";
+    if (statusMatch) working = working.replace(statusMatch[0], "").trim();
 
-    const tags = [...line.matchAll(/@\w+/g)].map((m) => m[0]);
+    // --- Extract series ---
+    const seriesMatch = working.match(/\+(\S+)/);
+    let series = seriesMatch ? seriesMatch[1] : null;
+    if (seriesMatch) working = working.replace(seriesMatch[0], "").trim();
+    series = prettifyPascalCase(series);
 
-    const [beforeAuthor, afterAuthor] = line.split("--");
-    const author = afterAuthor ? afterAuthor.split("@")[0].trim() : "";
+    // --- Extract number ---
+    const numberMatch = working.match(/#\S+/);
+    const number = numberMatch ? numberMatch[0] : null;
+    if (numberMatch) working = working.replace(numberMatch[0], "").trim();
 
-    const seriesPattern = /^\+(\S+)\s+(#\S+)?\s*(.*)$/;
-    const seriesMatch = beforeAuthor
-      .replace(/^\(.*?\)\s*/, "")
-      .match(seriesPattern);
-
-    let series: string | null = null;
-    let number: string | null = null;
-    let title: string = "";
-
-    if (seriesMatch) {
-      series = seriesMatch[1];
-      number = seriesMatch[2] || null;
-      title = seriesMatch[3].trim();
-    } else {
-      title = beforeAuthor.replace(/^\(.*?\)\s*/, "").trim();
+    // --- Extract author ---
+    const authorMatch = working.match(/--\s*(\S+)/);
+    let author: string | null = null;
+    if (authorMatch) {
+      author = prettifyPascalCase(authorMatch[1]);
+      working = working.replace(authorMatch[0], "").trim();
     }
+
+    // --- Extract tags ---
+    const tags = [...working.matchAll(/@\w+/g)].map((m) => m[0]);
+    if (tags.length > 0) {
+      tags.forEach((t) => {
+        working = working.replace(t, "").trim();
+      });
+    }
+
+    // --- Remaining text is title ---
+    const title = working.trim();
 
     return { status, series, number, title, author, tags };
   });
@@ -75,22 +97,17 @@ function groupAndSortBySeries(entries: BookEntry[]) {
       } else if (b.number) {
         return 1;
       }
-      return 0; // no number, keep original order
+      return 0;
     }
 
-    // Otherwise, group series first
     if (a.series && !b.series) return -1;
     if (!a.series && b.series) return 1;
 
-    // Different series → alphabetical by series
     if (a.series && b.series) return a.series.localeCompare(b.series);
-
-    // Neither has series → alphabetical by title
     return a.title.localeCompare(b.title);
   });
 }
 
-// Apply after filtering by status
 const currentSorted = groupAndSortBySeries(current);
 const awaitedSorted = groupAndSortBySeries(awaited);
 const finishedSorted = groupAndSortBySeries(finished);

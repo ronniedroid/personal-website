@@ -1,112 +1,112 @@
-(current) For Whom the Bell Tolls -- Ernest Hemingway @novel @fiction @drama @war @history
-(awaited) Our Lady of The Artilects -- Andrew Gillsmith @novel @fiction @sciFi @thriller @mystery
-(awaited) The Hitchhiker's Guide to the Galaxy -- Douglas Adams @novel @fiction @sciFi @humor @adventure
-(awaited) Moral Questions -- Thomas Nagel @nonfiction @philosophy
-(awaited) History of Western Philosophy -- Bertrand Russell @nonfiction @philosophy @history
-(awaited) Your Inner Fish -- Neil Shubin @nonfiction @evolution @science @history
-(awaited) A Universe from Nothing -- Lawrence M. Krauss @nonfiction @science @physics @religion
-(awaited) سلسلة مدن الملح -- Abdul Rahman Munif @novel @fiction @history @politics
-(awaited) سباق المسافات الطويلة -- Abdul Rahman Munif @novel @fiction @history @politics
-(awaited) Jane Eyre -- Charlotte Brontë @novel @fiction @classics @romance @drama
-(awaited) Snow Crash -- Neal Stephenson @novel @fiction @sciFi @cyberpunk
-(awaited) +SouthernReach #4 Absolution -- Jeff VanderMeer @novel @fiction @sciFi @horror @weird
-(unfinished) 1984 -- George Orwell @novel @fiction @classics @sciFi @dystopia
-(unfinished) Why I Am Not a Christian -- Bertrand Russell @nonfiction @philosophy @religion @atheism
-(unfinished) The Tobacco Keeper -- Ali Bader @novel @fiction @mystery
-(unfinished) Living to Tell the Tale -- Gabriel García Márquez @nonfiction @biography @memoir
-(unfinished) The Origin of Species -- Charles Darwin @nonfiction @science @evolution @history
-(read) +HyperionCantos #1 Hyperion -- Dan Simmons @novel @fiction @sciFi @mystery @spaceOpera
-(read) +HyperionCantos #2 The Fall of Hyperion -- Dan Simmons @novel @fiction @sciFi @mystery @spaceOpera
-(read) +RemembranceOfEarthsPast #1 The Three-Body Problem -- Liu Cixin @novel @fiction @sciFi @aliens
-(read) +RemembranceOfEarthsPast #2 The Dark Forest -- Liu Cixin @novel @fiction @sciFi @aliens
-(read) +RemembranceOfEarthsPast #3 Death's End -- Liu Cixin @novel @fiction @sciFi @aliens
-(read) +ChildrenOfTime #1 Children of Time -- Adrian Tchaikovsky @novel @fiction @sciFi @spaceOpera
-(read) +ChildrenOfTime #2 Children of Ruin -- Adrian Tchaikovsky @novel @fiction @sciFi @spaceOpera
-(read) +ChildrenOfTime #3 Children of Memory -- Adrian Tchaikovsky @novel @fiction @sciFi @spaceOpera
-(read) +Divergent #1 Divergent -- Veronica Roth @novel @fiction @sciFi @dystopia
-(read) +Divergent #2 Insurgent -- Veronica Roth @novel @fiction @sciFi @dystopia
-(read) +Divergent #3 Allegiant -- Veronica Roth @novel @fiction @sciFi @dystopia
-(read) +MazeRunner #1 The Maze Runner -- James Dashner @novel @fiction @sciFi @dystopia @thriller
-(read) +MazeRunner #2 The Scorch Trials -- James Dashner @novel @fiction @sciFi @dystopia @thriller
-(read) +MazeRunner #3 The Death Cure -- James Dashner @novel @fiction @sciFi @dystopia @thriller
-(read) +TheExpanse #1 Leviathan Wakes -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #1.5 The Butcher of Anderson Station -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #2 Caliban's War -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #2.5 Gods of Risk -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #2.7 Drive -- James S.A. Corey @short @fiction @sciFi @spaceOpera
-(read) +TheExpanse #3 Abaddon’s Gate -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #3.5 The Churn -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #4 Cibola Burn -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #5 Nemesis Games -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #5.5 The Vital Abyss -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #6 Babylon’s Ashes -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #6.5 Strange Dogs -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #7 Persepolis Rising -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #8 Tiamat’s Wrath -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #8.1 The Last Flight of the Cassandra -- James S.A. Corey @short @fiction @sciFi @spaceOpera
-(read) +TheExpanse #8.5 Auberon -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +TheExpanse #9 Leviathan Falls -- James S.A. Corey @novel @fiction @sciFi @spaceOpera
-(read) +TheExpanse #9.5 The Sins of Our Fathers -- James S.A. Corey @novella @fiction @sciFi @spaceOpera
-(read) +LordOfTheRings #0 The Hobbits -- J.R.R Tolkien @novel @fiction @fantasy @classics
-(read) +LordOfTheRings #1 The Fellowship of the Ring -- J.R.R Tolkien @novel @fiction @fantasy @classics
-(read) +LordOfTheRings #2 The Two Towers -- J.R.R Tolkien @novel @fiction @fantasy @classics
-(read) +LordOfTheRings #3 The Return of the King -- J.R.R Tolkien @novel @fiction @fantasy @classics
-(read) +WarForTheRoseThrone #1 Priest of Bones -- Peter McLean @novel @fiction @fantasy @dark
-(read) +WarForTheRoseThrone #2 Priest of Lies -- Peter McLean @novel @fiction @fantasy @dark
-(read) +WarForTheRoseThrone #3 Priest of Gallows -- Peter McLean @novel @fiction @fantasy @dark
-(read) +WarForTheRoseThrone #4 Priest of Crowns -- Peter McLean @novel @fiction @fantasy @dark
-(read) +SouthernReach #1 Annihilation -- Jeff VanderMeer @novel @fiction @sciFi @horror @weird
-(read) +SouthernReach #2 Authority -- Jeff VanderMeer @novel @fiction @sciFi @horror @weird
-(read) +SouthernReach #3 Acceptance -- Jeff VanderMeer @novel @fiction @sciFi @horror @weird
-(read) +Mythology #1 Mythos -- Stephen Fry @novel @fiction @mythology @history
-(read) +Mythology #2 Heroes -- Stephen Fry @novel @fiction @mythology @history
-(read) +MurderbotDiaries #1 All Systems Red -- Martha Wells @novella @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #2 Artificial Condition -- Martha Wells @novella @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #3 Rogue Protocol -- Martha Wells @novella @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #4 Exit Strategy -- Martha Wells @novella @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #5 Network Effect -- Martha Wells @novel @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #6 Fugitive Telemetry -- Martha Wells @novella @fiction @sciFi @robots @space
-(read) +MurderbotDiaries #7 System Collapse -- Martha Wells @novel @fiction @sciFi @robots @space
-(read) +CaptivesWar #1 The Mercy of Gods -- James S.A. Corey @novel @fiction @sciFi @aliens
-(read) +CaptivesWar #1.5 Livesuit -- James S.A. Corey @novella @fiction @sciFi @aliens
-(read) The Picture of Dorian Gray -- Oscar Wilde @novel @fiction @horror @fantasy
-(read) The Book Thief -- Mark Zusak @novel @fiction @history @war
-(read) The Boy in the Striped Pajamas -- John Boyne @novel @fiction @history @war
-(read) The Fault in Our Stars -- John Green @novel @fiction @romance
-(read) Paper Towns -- John Green @novel @fiction @romance @mystery @adventure
-(read) Looking for Alaska -- John Green @novel @fiction @romance
-(read) The Old Man and the Sea -- Ernest Hemingway @novel @fiction @classics @adventure
-(read) احببتك اكثر مما ينبغي -- Athier Abdullah Al-Nishmi @novel @fiction @romance
-(read) الاسود يليق بك -- Ahlam Musteghanemi @novel @fiction @romance @drama
-(read) The Kite Runner -- Khaled Hosseini @novel @fiction @history @drama @war
-(read) A Thousand Splendid Suns -- Khaled Hosseini @novel @fiction @history @drama @war
-(read) And the Mountains Echoed -- Khaled Hosseini @novel @fiction @history @drama @war
-(read) God Is Not Great -- Christopher Hitchens @nonfiction @religion @philosophy @atheism
-(read) The Missionary Position -- Christopher Hitchens @nonfiction @religion @history @philosophy
-(read) Free Will -- Sam Harris @nonfiction @philosophy @psychology @religion
-(read) The End of Faith -- Sam Harris @nonfiction @philosophy @religion @politics
-(read) The God Delusion -- Richard Dawkins @nonfiction @religion @atheism @philosophy
-(read) The Greatest Show on Earth -- Richard Dawkins @nonfiction @science @evolution @religion
-(read) The Selfish Gene -- Richard Dawkins @nonfiction @science @evolution @genetics
-(read) More Fool Me -- Stephen Fry @nonfiction @autobiography @humor @memoir
-(read) Dark Matter -- Blake Crouch @novel @fiction @sciFi @mystery @thriller
-(read) Recursion -- Blake Crouch @novel @fiction @sciFi @mystery @thriller
-(read) The Infidel -- Ali Bader @novel @fiction @war @drama
-(read) And Then There Were None -- Agatha Christie @novel @fiction @mystery @thriller @crime
-(read) Gone Girl -- Gillian Flynn @novel @fiction @mystery @thriller @crime
-(read) The Institute -- Stephen King @novel @fiction @mystery @thriller @horror
-(read) The Alchemist -- Paulo Coelho @novel @fiction @fantasy @adventure @philosophy
-(read) Adultery -- Paulo Coelho @novel @fiction @romance @philosophy
-(read) Why Evolution is True -- Jerry A. Coyne @nonfiction @science @evolution @religion
-(read) The Call of Cthulhu -- H.P. Lovecraft @short @fiction @horror @classics @lovecraftian
-(read) Blindsight -- Peter Watts @novel @fiction @sciFi @horror @aliens
-(read) Pride and Prejudice -- Jane Austen @novel @fiction @romance @classics @drama
-(read) The Martian -- Andy Weir @novel @fiction @sciFi @thriller @adventure
-(read) 2001: A Space Odyssey -- Arthur C. Clarke @novel @fiction @sciFi @mystery
-(read) Childhood’s End -- Arthur C. Clarke @novel @fiction @sciFi @aliens @dystopia
-(read) Why We Sleep -- Matthew Walker @nonfiction @science @health
-(read) Alien Clay -- Adrian Tchaikovsky @novel @fiction @sciFi @mystery @aliens
-(cancelled) Inferno -- Dan Brown @novel @fiction @thriller @mystery @adventure
-(cancelled) A Man Called Ove -- Fredrik Backman @novel @fiction @humor @drama
-(cancelled) كبرتُ ونسيت أن أن أنسى -- Bothaina Al-Isa @novel @fiction @romance @poetry
-(cancelled) Think -- Simon Blackburn @nonfiction @philosophy @intro
+(current) For Whom the Bell Tolls --ErnestHemingway @novel @fiction @drama @war @history
+(awaited) Our Lady of The Artilects --AndrewGillsmith @novel @fiction @sciFi @thriller @mystery
+(awaited) The Hitchhiker's Guide to the Galaxy --DouglasAdams @novel @fiction @sciFi @humor @adventure
+(awaited) Moral Questions --ThomasNagel @nonfiction @philosophy
+(awaited) History of Western Philosophy --BertrandRussell @nonfiction @philosophy @history
+(awaited) Your Inner Fish --NeilShubin @nonfiction @evolution @science @history
+(awaited) A Universe from Nothing --LawrenceM.Krauss @nonfiction @science @physics @religion
+(awaited) سلسلة مدن الملح --AbdulRahmanMunif @novel @fiction @history @politics
+(awaited) سباق المسافات الطويلة --AbdulRahmanMunif @novel @fiction @history @politics
+(awaited) Jane Eyre --CharlotteBrontë @novel @fiction @classics @romance @drama
+(awaited) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
+(awaited) +SouthernReach #4 Absolution --JeffVanderMeer @novel @fiction @sciFi @horror @weird
+(unfinished) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
+(unfinished) Why I Am Not a Christian --BertrandRussell @nonfiction @philosophy @religion @atheism
+(unfinished) The Tobacco Keeper --AliBader @novel @fiction @mystery
+(unfinished) Living to Tell the Tale --GabrielGarcíaMárquez @nonfiction @biography @memoir
+(unfinished) The Origin of Species --CharlesDarwin @nonfiction @science @evolution @history
+(read) +HyperionCantos #1 Hyperion --DanSimmons @novel @fiction @sciFi @mystery @spaceOpera
+(read) +HyperionCantos #2 The Fall of Hyperion --DanSimmons @novel @fiction @sciFi @mystery @spaceOpera
+(read) +RemembranceOfEarthsPast #1 The Three-Body Problem --LiuCixin @novel @fiction @sciFi @aliens
+(read) +RemembranceOfEarthsPast #2 The Dark Forest --LiuCixin @novel @fiction @sciFi @aliens
+(read) +RemembranceOfEarthsPast #3 Death's End --LiuCixin @novel @fiction @sciFi @aliens
+(read) +ChildrenOfTime #1 Children of Time --AdrianTchaikovsky @novel @fiction @sciFi @spaceOpera
+(read) +ChildrenOfTime #2 Children of Ruin --AdrianTchaikovsky @novel @fiction @sciFi @spaceOpera
+(read) +ChildrenOfTime #3 Children of Memory --AdrianTchaikovsky @novel @fiction @sciFi @spaceOpera
+(read) +Divergent #1 Divergent --VeronicaRoth @novel @fiction @sciFi @dystopia
+(read) +Divergent #2 Insurgent --VeronicaRoth @novel @fiction @sciFi @dystopia
+(read) +Divergent #3 Allegiant --VeronicaRoth @novel @fiction @sciFi @dystopia
+(read) +MazeRunner #1 The Maze Runner --JamesDashner @novel @fiction @sciFi @dystopia @thriller
+(read) +MazeRunner #2 The Scorch Trials --JamesDashner @novel @fiction @sciFi @dystopia @thriller
+(read) +MazeRunner #3 The Death Cure --JamesDashner @novel @fiction @sciFi @dystopia @thriller
+(read) +TheExpanse #1 Leviathan Wakes --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #1.5 The Butcher of Anderson Station --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #2 Caliban's War --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #2.5 Gods of Risk --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #2.7 Drive --JamesS.A.Corey @short @fiction @sciFi @spaceOpera
+(read) +TheExpanse #3 Abaddon’s Gate --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #3.5 The Churn --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #4 Cibola Burn --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #5 Nemesis Games --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #5.5 The Vital Abyss --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #6 Babylon’s Ashes --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #6.5 Strange Dogs --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #7 Persepolis Rising --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #8 Tiamat’s Wrath --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #8.1 The Last Flight of the Cassandra --JamesS.A.Corey @short @fiction @sciFi @spaceOpera
+(read) +TheExpanse #8.5 Auberon --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +TheExpanse #9 Leviathan Falls --JamesS.A.Corey @novel @fiction @sciFi @spaceOpera
+(read) +TheExpanse #9.5 The Sins of Our Fathers --JamesS.A.Corey @novella @fiction @sciFi @spaceOpera
+(read) +LordOfTheRings #0 The Hobbits --J.R.R.Tolkien @novel @fiction @fantasy @classics
+(read) +LordOfTheRings #1 The Fellowship of the Ring --J.R.R.Tolkien @novel @fiction @fantasy @classics
+(read) +LordOfTheRings #2 The Two Towers --J.R.R.Tolkien @novel @fiction @fantasy @classics
+(read) +LordOfTheRings #3 The Return of the King --J.R.R.Tolkien @novel @fiction @fantasy @classics
+(read) +WarForTheRoseThrone #1 Priest of Bones --PeterMcLean @novel @fiction @fantasy @dark
+(read) +WarForTheRoseThrone #2 Priest of Lies --PeterMcLean @novel @fiction @fantasy @dark
+(read) +WarForTheRoseThrone #3 Priest of Gallows --PeterMcLean @novel @fiction @fantasy @dark
+(read) +WarForTheRoseThrone #4 Priest of Crowns --PeterMcLean @novel @fiction @fantasy @dark
+(read) +SouthernReach #1 Annihilation --JeffVanderMeer @novel @fiction @sciFi @horror @weird
+(read) +SouthernReach #2 Authority --JeffVanderMeer @novel @fiction @sciFi @horror @weird
+(read) +SouthernReach #3 Acceptance --JeffVanderMeer @novel @fiction @sciFi @horror @weird
+(read) +Mythology #1 Mythos --StephenFry @novel @fiction @mythology @history
+(read) +Mythology #2 Heroes --StephenFry @novel @fiction @mythology @history
+(read) +MurderbotDiaries #1 All Systems Red --MarthaWells @novella @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #2 Artificial Condition --MarthaWells @novella @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #3 Rogue Protocol --MarthaWells @novella @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #4 Exit Strategy --MarthaWells @novella @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #5 Network Effect --MarthaWells @novel @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #6 Fugitive Telemetry --MarthaWells @novella @fiction @sciFi @robots @space
+(read) +MurderbotDiaries #7 System Collapse --MarthaWells @novel @fiction @sciFi @robots @space
+(read) +CaptivesWar #1 The Mercy of Gods --JamesS.A.Corey @novel @fiction @sciFi @aliens
+(read) +CaptivesWar #1.5 Livesuit --JamesS.A.Corey @novella @fiction @sciFi @aliens
+(read) The Picture of Dorian Gray --OscarWilde @novel @fiction @horror @fantasy
+(read) The Book Thief --MarkZusak @novel @fiction @history @war
+(read) The Boy in the Striped Pajamas --JohnBoyne @novel @fiction @history @war
+(read) The Fault in Our Stars --JohnGreen @novel @fiction @romance
+(read) Paper Towns --JohnGreen @novel @fiction @romance @mystery @adventure
+(read) Looking for Alaska --JohnGreen @novel @fiction @romance
+(read) The Old Man and the Sea --ErnestHemingway @novel @fiction @classics @adventure
+(read) احببتك اكثر مما ينبغي --AthierAbdullahAl-Nishmi @novel @fiction @romance
+(read) الاسود يليق بك --AhlamMusteghanemi @novel @fiction @romance @drama
+(read) The Kite Runner --KhaledHosseini @novel @fiction @history @drama @war
+(read) A Thousand Splendid Suns --KhaledHosseini @novel @fiction @history @drama @war
+(read) And the Mountains Echoed --KhaledHosseini @novel @fiction @history @drama @war
+(read) God Is Not Great --ChristopherHitchens @nonfiction @religion @philosophy @atheism
+(read) The Missionary Position --ChristopherHitchens @nonfiction @religion @history @philosophy
+(read) Free Will --SamHarris @nonfiction @philosophy @psychology @religion
+(read) The End of Faith --SamHarris @nonfiction @philosophy @religion @politics
+(read) The God Delusion --RichardDawkins @nonfiction @religion @atheism @philosophy
+(read) The Greatest Show on Earth --RichardDawkins @nonfiction @science @evolution @religion
+(read) The Selfish Gene --RichardDawkins @nonfiction @science @evolution @genetics
+(read) More Fool Me --StephenFry @nonfiction @autobiography @humor @memoir
+(read) Dark Matter --BlakeCrouch @novel @fiction @sciFi @mystery @thriller
+(read) Recursion --BlakeCrouch @novel @fiction @sciFi @mystery @thriller
+(read) The Infidel --AliBader @novel @fiction @war @drama
+(read) And Then There Were None --AgathaChristie @novel @fiction @mystery @thriller @crime
+(read) Gone Girl --GillianFlynn @novel @fiction @mystery @thriller @crime
+(read) The Institute --StephenKing @novel @fiction @mystery @thriller @horror
+(read) The Alchemist --PauloCoelho @novel @fiction @fantasy @adventure @philosophy
+(read) Adultery --PauloCoelho @novel @fiction @romance @philosophy
+(read) Why Evolution is True --JerryA.Coyne @nonfiction @science @evolution @religion
+(read) The Call of Cthulhu --H.P.Lovecraft @short @fiction @horror @classics @lovecraftian
+(read) Blindsight --PeterWatts @novel @fiction @sciFi @horror @aliens
+(read) Pride and Prejudice --JaneAusten @novel @fiction @romance @classics @drama
+(read) The Martian --AndyWeir @novel @fiction @sciFi @thriller @adventure
+(read) 2001: A Space Odyssey --ArthurC.Clarke @novel @fiction @sciFi @mystery
+(read) Childhood’s End --ArthurC.Clarke @novel @fiction @sciFi @aliens @dystopia
+(read) Why We Sleep --MatthewWalker @nonfiction @science @health
+(read) Alien Clay --AdrianTchaikovsky @novel @fiction @sciFi @mystery @aliens
+(cancelled) Inferno --DanBrown @novel @fiction @thriller @mystery @adventure
+(cancelled) A Man Called Ove --FredrikBackman @novel @fiction @humor @drama
+(cancelled) كبرتُ ونسيت أن أن أنسى --BothainaAl-Isa @novel @fiction @romance @poetry
+(cancelled) Think --SimonBlackburn @nonfiction @philosophy @intro
