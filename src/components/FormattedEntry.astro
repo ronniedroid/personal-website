@@ -14,7 +14,6 @@ function prettifySeries(raw: string): string {
 
 <li class="bookEntry">
   <p>
-    <span class={status}>{status}</span>
     <strong>{title}</strong>
     {series ? `${prettifySeries(series)}` : ""}
     {number ? number : ""} -- {author}
@@ -28,25 +27,6 @@ function prettifySeries(raw: string): string {
   .bookEntry {
     padding-block-start: 0.5rem;
   }
-  p > span {
-    text-transform: capitalize;
-  }
-
-  .current {
-    color: var(--primary);
-  }
-
-  .awaited {
-    color: #e65100;
-  }
-
-  .read {
-    color: #1b5e20;
-  }
-
-  .cancelled {
-    color: #b71c1c;
-  }
 
   ul {
     list-style: none;
@@ -59,10 +39,11 @@ function prettifySeries(raw: string): string {
   ul > li {
     color: var(--tertiary);
     text-transform: capitalize;
+    font-size: var(--fs-xs);
   }
 
   ul > li:not(:last-child):after {
     content: ",";
-    padding-inline-end: 1ch;
+    padding-inline-end: 0.5ch;
   }
 </style>

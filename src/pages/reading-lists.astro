@@ -41,7 +41,7 @@ const entries: BookEntry[] = rawList
 
     if (seriesMatch) {
       series = seriesMatch[1];
-      number = seriesMatch[2] || null; // keep '#1', '#1.5', etc.
+      number = seriesMatch[2] || null;
       title = seriesMatch[3].trim();
     } else {
       title = beforeAuthor.replace(/^\(.*?\)\s*/, "").trim();
