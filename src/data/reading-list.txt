@@ -1,4 +1,4 @@
-(current) For Whom the Bell Tolls --ErnestHemingway @novel @fiction @drama @war @history
+(read) For Whom the Bell Tolls --ErnestHemingway @novel @fiction @drama @war @history
 (awaited) Our Lady of The Artilects --AndrewGillsmith @novel @fiction @sciFi @thriller @mystery
 (awaited) The Hitchhiker's Guide to the Galaxy --DouglasAdams @novel @fiction @sciFi @humor @adventure
 (awaited) Moral Questions --ThomasNagel @nonfiction @philosophy
@@ -10,7 +10,8 @@
 (awaited) Jane Eyre --CharlotteBrontë @novel @fiction @classics @romance @drama
 (awaited) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
 (awaited) +SouthernReach #4 Absolution --JeffVanderMeer @novel @fiction @sciFi @horror @weird
-(unfinished) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
+(current) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
+(read) Animal Farm --GeorgeOrwell @novella @fiction @classics @fantasy @fable
 (unfinished) Why I Am Not a Christian --BertrandRussell @nonfiction @philosophy @religion @atheism
 (unfinished) The Tobacco Keeper --AliBader @novel @fiction @mystery
 (unfinished) Living to Tell the Tale --GabrielGarcíaMárquez @nonfiction @biography @memoir
@@ -60,6 +61,7 @@
 (read) +SouthernReach #3 Acceptance --JeffVanderMeer @novel @fiction @sciFi @horror @weird
 (read) +Mythology #1 Mythos --StephenFry @novel @fiction @mythology @history
 (read) +Mythology #2 Heroes --StephenFry @novel @fiction @mythology @history
+(awaited) +Mythology #3 Troy --StephenFry @novel @fiction @mythology @history
 (read) +MurderbotDiaries #1 All Systems Red --MarthaWells @novella @fiction @sciFi @robots @space
 (read) +MurderbotDiaries #2 Artificial Condition --MarthaWells @novella @fiction @sciFi @robots @space
 (read) +MurderbotDiaries #3 Rogue Protocol --MarthaWells @novella @fiction @sciFi @robots @space
@@ -102,6 +104,7 @@
 (read) Blindsight --PeterWatts @novel @fiction @sciFi @horror @aliens
 (read) Pride and Prejudice --JaneAusten @novel @fiction @romance @classics @drama
 (read) The Martian --AndyWeir @novel @fiction @sciFi @thriller @adventure
+(read) Project Hail Mary --AndyWeir @novel @fiction @sciFi @thriller @adventure @aliens
 (read) 2001: A Space Odyssey --ArthurC.Clarke @novel @fiction @sciFi @mystery
 (read) Childhood’s End --ArthurC.Clarke @novel @fiction @sciFi @aliens @dystopia
 (read) Why We Sleep --MatthewWalker @nonfiction @science @health
