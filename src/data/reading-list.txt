@@ -8,9 +8,9 @@
 (awaited) سلسلة مدن الملح --AbdulRahmanMunif @novel @fiction @history @politics
 (awaited) سباق المسافات الطويلة --AbdulRahmanMunif @novel @fiction @history @politics
 (awaited) Jane Eyre --CharlotteBrontë @novel @fiction @classics @romance @drama
-(awaited) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
+(current) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
 (awaited) +SouthernReach #4 Absolution --JeffVanderMeer @novel @fiction @sciFi @horror @weird
-(current) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
+(read) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
 (read) Animal Farm --GeorgeOrwell @novella @fiction @classics @fantasy @fable
 (unfinished) Why I Am Not a Christian --BertrandRussell @nonfiction @philosophy @religion @atheism
 (unfinished) The Tobacco Keeper --AliBader @novel @fiction @mystery
