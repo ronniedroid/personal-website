@@ -8,7 +8,7 @@
 (awaited) سلسلة مدن الملح --AbdulRahmanMunif @novel @fiction @history @politics
 (awaited) سباق المسافات الطويلة --AbdulRahmanMunif @novel @fiction @history @politics
 (awaited) Jane Eyre --CharlotteBrontë @novel @fiction @classics @romance @drama
-(current) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
+(cancelled) Snow Crash --NealStephenson @novel @fiction @sciFi @cyberpunk
 (awaited) +SouthernReach #4 Absolution --JeffVanderMeer @novel @fiction @sciFi @horror @weird
 (read) 1984 --GeorgeOrwell @novel @fiction @classics @sciFi @dystopia
 (read) Animal Farm --GeorgeOrwell @novella @fiction @classics @fantasy @fable
@@ -71,6 +71,7 @@
 (read) +MurderbotDiaries #7 System Collapse --MarthaWells @novel @fiction @sciFi @robots @space
 (read) +CaptivesWar #1 The Mercy of Gods --JamesS.A.Corey @novel @fiction @sciFi @aliens
 (read) +CaptivesWar #1.5 Livesuit --JamesS.A.Corey @novella @fiction @sciFi @aliens
+(current) +CaptivesWar #2 The Faith of Beasts --JamesS.A.Corey @novella @fiction @sciFi @aliens
 (read) The Picture of Dorian Gray --OscarWilde @novel @fiction @horror @fantasy
 (read) The Book Thief --MarkZusak @novel @fiction @history @war
 (read) The Boy in the Striped Pajamas --JohnBoyne @novel @fiction @history @war
@@ -113,3 +114,4 @@
 (cancelled) A Man Called Ove --FredrikBackman @novel @fiction @humor @drama
 (cancelled) كبرتُ ونسيت أن أن أنسى --BothainaAl-Isa @novel @fiction @romance @poetry
 (cancelled) Think --SimonBlackburn @nonfiction @philosophy @intro
+(read) The Knight of The Seven Kingdoms -- GeorgeR.R.Martin @novella @fiction @fantasy @adventure
