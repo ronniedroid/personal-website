@@ -71,7 +71,7 @@
 (read) +MurderbotDiaries #7 System Collapse --MarthaWells @novel @fiction @sciFi @robots @space
 (read) +CaptivesWar #1 The Mercy of Gods --JamesS.A.Corey @novel @fiction @sciFi @aliens
 (read) +CaptivesWar #1.5 Livesuit --JamesS.A.Corey @novella @fiction @sciFi @aliens
-(current) +CaptivesWar #2 The Faith of Beasts --JamesS.A.Corey @novella @fiction @sciFi @aliens
+(current) +CaptivesWar #2 The Faith of Beasts --JamesS.A.Corey @novel @fiction @sciFi @aliens
 (read) The Picture of Dorian Gray --OscarWilde @novel @fiction @horror @fantasy
 (read) The Book Thief --MarkZusak @novel @fiction @history @war
 (read) The Boy in the Striped Pajamas --JohnBoyne @novel @fiction @history @war
